@@ -6,16 +6,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'LLazyEmail Documentation',
+  tagline: 'Documentation for LLazyEmail',
+  url: 'https://LLazyEmail.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'LLazyEmail', // Usually your GitHub org/user name.
+  projectName: 'documentation.github.io', // Usually your repo name.
+  trailingSlash: false,
+  
   presets: [
     [
       'classic',
