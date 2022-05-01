@@ -14,8 +14,9 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'LLazyEmail', // Usually your GitHub org/user name.
-  projectName: 'documentation.github.io', // Usually your repo name.
+  projectName: 'documentation', // Usually your repo name.
   trailingSlash: false,
+  deploymentBranch: 'gh-pages',
   
   presets: [
     [
