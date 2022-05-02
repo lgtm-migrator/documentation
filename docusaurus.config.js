@@ -26,13 +26,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/LLazyEmail/documentation/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/LLazyEmail/documentation/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,11 +55,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/LLazyEmail/documentation',
             label: 'GitHub',
             position: 'right',
           },
@@ -72,28 +72,20 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Intro',
                 to: '/docs/intro',
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //   ],
+          // },
           {
             title: 'More',
             items: [
@@ -103,12 +95,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/LLazyEmail/documentation',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} LLazyEmail, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
