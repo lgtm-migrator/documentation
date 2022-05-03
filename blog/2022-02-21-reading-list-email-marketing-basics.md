@@ -1,6 +1,6 @@
 ---
 slug: reading-list-email-marketing-basics
-title: Reading List: Email Marketing Basics
+title: Reading List Email Marketing Basics
 authors:
   name: Arthur Tkachenko
   title: Core Team
