@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"How To Create a Curated Email Newsletter That Brings Results for Your Business","permalink":"/documentation/blog/how-to-create-a-curated-email-newsletter-that-brings-results-for-your-business"}]}')}}]);
