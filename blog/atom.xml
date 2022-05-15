@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://llazyemail.github.io/documentation/blog</id>
     <title>LLazyEmail Documentation Blog</title>
-    <updated>2022-05-15T10:40:46.000Z</updated>
+    <updated>2022-05-15T10:49:40.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://llazyemail.github.io/documentation/blog"/>
     <subtitle>LLazyEmail Documentation Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[archive]]></title>
         <id>/archive</id>
         <link href="https://llazyemail.github.io/documentation/blog/archive"/>
-        <updated>2022-05-15T10:40:46.000Z</updated>
+        <updated>2022-05-15T10:49:40.000Z</updated>
         <summary type="html"><![CDATA[Arthur Tkachenko articles]]></summary>
     </entry>
     <entry>
