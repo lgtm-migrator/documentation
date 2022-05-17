@@ -4,7 +4,7 @@
         <title>LLazyEmail Documentation Blog</title>
         <link>https://llazyemail.github.io/documentation/blog</link>
         <description>LLazyEmail Documentation Blog</description>
-        <lastBuildDate>Sun, 15 May 2022 10:49:40 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 May 2022 02:09:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[archive]]></title>
             <link>https://llazyemail.github.io/documentation/blog/archive</link>
             <guid>/archive</guid>
-            <pubDate>Sun, 15 May 2022 10:49:40 GMT</pubDate>
+            <pubDate>Tue, 17 May 2022 02:09:50 GMT</pubDate>
             <description><![CDATA[Arthur Tkachenko articles]]></description>
         </item>
         <item>
