@@ -1,6 +1,6 @@
 ---
 slug: togetherforvictory-list-of-email-marketing-tools
-title: #Together4Victory: List of Email Marketing tools
+title: List of Email Marketing tools, Together4Victory
 authors:
   name: Arthur Tkachenko
   title: Core Team
