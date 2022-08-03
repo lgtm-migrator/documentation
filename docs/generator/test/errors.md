@@ -1,46 +1,71 @@
-# Find a way to handle errors carefully [Important] [#970](https://github.com/LLazyEmail/markdown-to-email/issues/970)
+## Table of Contents
 
-большинство вариантов, перечисленные внизу связанны с установкой тех или иных modules/tools, и проверкой гипотез.
+- [Task 1: Find a way to handle errors carefully Important #970](#task-1-find-a-way-to-handle-errors-carefully-important-970)
 
-основные слабые точки нашего проекта:
+- [Task 2: Priority](#task-2-priority)
+
+- [Debug package](#debug-package)
+
+- [Winston Priority](#winston-priority)
+
+- [Stacktrace Priority](#stacktrace-priority)
+
+- [Sentry Priority Low](#sentry-priority-low)
+
+- [Try to use Testim Priority Low](#try-to-use-testim-priority-low)
+
+- [Правильная организация](#правильная-организация)
+
+- [Task 5: Best practices for error handling #63](#task-5-best-practices-for-error-handling-63)
+
+- [Add here error handlers from domain error-handle](#add-here-error-handlers-from-domain-error-handle)
+
+- [Table With Two Recipes](#table-with-two-recipes)
+
+- [Pictures](#pictures)
+
+- [Task 6: More error handling #930](#task-6-more-error-handling-930)
+
+# Task 1: Find a way to handle errors carefully [Important] [#970](https://github.com/LLazyEmail/markdown-to-email/issues/970)
+
+Большинство вариантов, перечисленные внизу связанны с установкой тех или иных modules/tools, и проверкой гипотез.
+
+Основные слабые точки нашего проекта:
 - вырезание контента с помощью RegEx
 - обрамление контента с помощью callbacks
 - сборка всего вместе
 - работа с разными темами 
 
-
-добавление мелких модулей можно сделать за пару выходных и посмотреть нравится нам функционал или нет.
+Добавление мелких модулей можно сделать за пару выходных и посмотреть нравится нам функционал или нет.
 для более сложных вещей прийдется переделывать нашу структуру. что хорошо, но потребует большего количества времени.
 
-## Task  - Priority [ ]
+## Task 2: Priority
 
-модули которые я нагуглил, популярные для вывода ошибок.
+Модули которые я нагуглил, популярные для вывода ошибок.
 
 Небольшие модули:
 - https://www.npmjs.com/package/error
 - https://www.npmjs.com/package/pretty-error
 - https://www.npmjs.com/package/node-error-handler
 
-
 Links:
-
 - https://stackoverflow.com/questions/59575152/error-stack-displays-different-information-when-i-split-the-stack-into-array
 - https://www.tabnine.com/code/javascript/functions/builtins/Error/stack
 - https://stackoverflow.com/questions/9754735/is-it-a-best-practice-to-extract-string-literals-to-constants-in-javascript
 - https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/helper-methods/index.js
 
-not sure if we can find a solution for everything, but we need to find a way to do things better:
+Not sure if we can find a solution for everything, but we need to find a way to do things better:
 
 - like more throw errors is good for debugging and building new things,
 - logging will help us to be on the pulse of changes at one place, etc
 
 ---
 
-### debug package 
+### Debug package 
 
 Link: https://www.npmjs.com/package/debug
 
-### Winston - Priority [ ]
+### Winston Priority 
 
 Еще один модуль, логгер - https://github.com/winstonjs/winston
 
@@ -74,18 +99,16 @@ if (process.env.NODE_ENV !== 'production') {
 }
 ```
 
-
-### Stacktrace - Priority [ ]
- выглядит интересно и вроде как они делают центральную систему
+### Stacktrace Priority
+Выглядит интересно и вроде как они делают центральную систему
  
 - https://www.npmjs.com/package/error-stack-parser
 - https://www.stacktracejs.com/
 - https://www.npmjs.com/package/process-warning
 - https://www.npmjs.com/package/stack-trace
 
-
-### Sentry  - Priority [Low]
-очень большая и широкая тема. самый простой вариант его использовать такой -  подключить sentry только для вывода длинного trace когда чтото реально крешится.
+### Sentry Priority [Low]
+Очень большая и широкая тема. самый простой вариант его использовать такой -  подключить sentry только для вывода длинного trace когда чтото реально крешится.
 Тоесть например мы пихаем ошибки в sentry в каждом **catch error;** и просто используем его как логгер.
 Но они предоставляют гораздо больше возможностей для вдумчивого девелопмента. там можно планировать и релизы и еще кучу всего.
 большим плюсом для нас является то, что наш код лежит open-sourced. и нам ненужно платить за некоторые из их фич.
@@ -99,25 +122,21 @@ Sentry я пользовался на api для groceristar и был очен�
 Возможно сейчас эта опция выглядит не на часi, але ...
 Например в тот момент, когда мы 
 
-
-
-# Try to use Testim - Priority [Low]
+# Try to use Testim Priority [Low]
 
 Тестим был спонсорром у хакернуна, поэтому о них знаю. в месяц бесплатно можно запускать тысячу "runs". 
 Я думаю что можно было бы сделать так, чтобы мы например запускали их продукт например раз в неделю или еще реже и 
 
-но нужно сделать рисерч и вообще посмотреть на то, нужен ли он нам или нет.
+Но нужно сделать рисерч и вообще посмотреть на то, нужен ли он нам или нет.
 
 Link: https://www.testim.io/pricing/
 
 ---
 
-### правильная организация
-
+### Правильная организация
 
 - https://homoly.me/posts/organizing-tests-with-jest-projects
 - https://jestjs.io/docs/configuration#projects-arraystring--projectconfig
-
 
 # Task 5: Best practices for error handling #63
 
@@ -128,9 +147,8 @@ Read a few of those articles, it might help you with cases, like this one: https
 - https://blog.appsignal.com/2021/11/03/designing-error-messages-and-a-logging-strategy-in-nodejs.html
 - https://www.valentinog.com/blog/error/
 
-### add here error handlers from domain/error-handle
+### Add here error handlers from domain error-handle
 - https://github.com/LLazyEmail/markdown-to-email/blob/a7f26e56bc00693e254ad112103004d5eda26f84/src/domain/replace-markdown/pre-replace-objects.js#L80
-
 
 ### Table With Two Recipes
 
@@ -138,9 +156,8 @@ Read a few of those articles, it might help you with cases, like this one: https
 - https://github.com/LLazyEmail/nomoretogo_email_template/blob/main/src/components/tableWithTwoRecipes.js#L72-L88
 эта функция не очень "читабельна". я бы не экспортировал таким образом.
 
-мы прийдем к тому, что наши компоненты будут собраться вместе в файлах display/display-* и там мы наверное будем передавать данные и вызывать функции.
+Мы прийдем к тому, что наши компоненты будут собраться вместе в файлах display/display-* и там мы наверное будем передавать данные и вызывать функции.
 я бы скорее назвал эту функцию как то, аля checking for errors, а кспортировал бы только компонент.
-
 
 # Pictures
 
