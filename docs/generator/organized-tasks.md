@@ -90,7 +90,12 @@ https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 https://github.com/LLazyEmail/awesome-email-marketing/blob/main/improvements.md
 
+https://github.com/LLazyEmail/documentation/blob/main/docs/generator/test/improvements.md#task-14
+
+
 https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
+
+
 
 
 
