@@ -81,33 +81,41 @@ https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 
 
-# Сложные, "кастомные" блоки темлпейта и сборные callbacks.
+# Сложные, "кастомные" блоки email темлпейта и сборные callbacks.
+
+
+Пока мы не попробывали использовать mdx для наших темлпейтов, у нас будут возникать вопросы и проблемы с кастомными тегами для markdown.
+
+**Проблема**: для каждого сложного блока прийдется:
+1. "создавать свою" версию тега 
+2. для этой версии писать кастомный regEx 
+3. писать "сложный" callback, который будет обрабатывать параметры, которые regex "вырезает" из нашего контента.
+
+В темлпейте для hackernoon у нас уже sponsorship, preview text, memes и т.д.
+
+при этом, большинство кастомных блоков имеют внутри себя стандартные объекты из typography.
+Например:
+- sponsorship это image + link, heading + link внутри кастомного html блока.
+- memes это image + link
+
+**Предложение**: рассмотреть возможность создания сборных, вложенных реплейсеров.
+Что я имею ввиду? 
+
+Сделать какой то универсальный вариант, который внутрь [_sponshorship](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/callbacks/html/methods/sponsor.js) бахнет _text, _link, _image, с их параметрами.
+
+
+Я понимаю, что легче от этого не станет. Но мы сможем использовать эту логику в nmtg темплейте.
 
 
 
 
 
-## Task 14 Custom callbacks
-
-Придумать как можно улучшить работу с кастомными реплейсерами:
-sponsorship, memes, etc.
-
-например sponsorship это блок текста + link, image + link
-
-почему мы неможем сделать универсальный вариант, который внутрь _sponshorship бахнет text, link, image, link
-
-наверное легче от этого не станет. Но мы сможем использовать эту логику в nmtg темплейте.
-
-сборный replacer/callback
-
-
+Я записал видео: https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
 
 https://github.com/LLazyEmail/awesome-email-marketing/blob/main/improvements.md
 
-https://github.com/LLazyEmail/documentation/blob/main/docs/generator/test/improvements.md#task-14
 
 
-https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
 
 Как я пришел к этой проблеме?
 
@@ -117,6 +125,8 @@ https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
 - link
 - title
 - subtitle
+
+
 
 также можно посмотреть в markdown-it, но я думаю что это просто будет прожетуточный вариант и воможно нужно просто пропускать и сразу идти в MDX.
 https://github.com/markdown-it/markdown-it#plugins-load
@@ -135,6 +145,8 @@ https://github.com/markdown-it/markdown-it#plugins-load
 ```
 
 **REGEXP_IMAGE, REGEXP_LINK, REGEXP_H2, REGEXP_H3**
+
+
 
 
 
