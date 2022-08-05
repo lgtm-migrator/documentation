@@ -416,42 +416,7 @@ export default {
 таким макаром мы можем наконецто уйти от странных "темлпейтов" и делать блоки фронтенда с помощью тех средств, которые для этого предпочтительнее и реаль работают лучше.
 
 
-## Task 14 Custom callbacks
-
-Придумать как можно улучшить работу с кастомными реплейсерами:
-sponsorship, memes, etc.
-
-например sponsorship это блок текста + link, image + link
-
-почему мы неможем сделать универсальный вариант, который внутрь _sponshorship бахнет text, link, image, link
-
-наверное легче от этого не станет. Но мы сможем использовать эту логику в nmtg темплейте.
-
-сборный replacer/callback
-
-в nmtg есть блок рецептов. там 4 переменные внутри
-- image
-- link
-- title
-- subtitle
-
-также можно посмотреть в markdown-it, но я думаю что это просто будет прожетуточный вариант и воможно нужно просто пропускать и сразу идти в MDX.
-https://github.com/markdown-it/markdown-it#plugins-load
-
-
-https://user-images.githubusercontent.com/1469198/180642690-d6ca3af5-f9eb-4a55-a7c3-cc851c342a3a.mp4
-
-```
-_image
-_link
-_title
-_subtitle
-```
-
-
-
-
-
+## Task 14 - empty
 
 
 
