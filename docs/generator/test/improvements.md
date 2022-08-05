@@ -416,7 +416,7 @@ export default {
 таким макаром мы можем наконецто уйти от странных "темлпейтов" и делать блоки фронтенда с помощью тех средств, которые для этого предпочтительнее и реаль работают лучше.
 
 
-## Task 14
+## Task 14 Custom callbacks
 
 Придумать как можно улучшить работу с кастомными реплейсерами:
 sponsorship, memes, etc.
@@ -441,8 +441,12 @@ https://github.com/markdown-it/markdown-it#plugins-load
 
 https://user-images.githubusercontent.com/1469198/180642690-d6ca3af5-f9eb-4a55-a7c3-cc851c342a3a.mp4
 
-
-
+```
+_image
+_link
+_title
+_subtitle
+```
 
 ```
 :::
@@ -456,6 +460,20 @@ https://user-images.githubusercontent.com/1469198/180642690-d6ca3af5-f9eb-4a55-a
 
 **REGEXP_IMAGE, REGEXP_LINK, REGEXP_H2, REGEXP_H3**
 
+
+
+### [complex callbacks](https://app.asana.com/0/1201360899207493/1202700806644230)
+```
+у меня есть вопрос/идея которую бы я хотел обсудить.
+я записал видео в этом таске. 
+
+Если кратко - я немного торможу окончание работу над nmtg/typography потому что мне лень просто добить этот модуль без каких то импрувментов.
+
+и у меня есть вопрос насчет создание сложных кастомных элементов, которые мне непонятно как "правильно" сделать
+```
+
+Task with video: https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
+Sub-task: https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 
 
