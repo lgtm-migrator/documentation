@@ -109,30 +109,30 @@ https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 
 
-
-Я записал видео: https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
-
-https://github.com/LLazyEmail/awesome-email-marketing/blob/main/improvements.md
-
-
-
-
 Как я пришел к этой проблеме?
 
 
-в nmtg есть блок рецептов. там 4 переменные внутри
+в nmtg есть блок рецептов, посути это сборный блок в котором 4 переменные внутри:
 - image
 - link
 - title
 - subtitle
 
 
+Я записал видео: https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
 
-также можно посмотреть в markdown-it, но я думаю что это просто будет прожетуточный вариант и воможно нужно просто пропускать и сразу идти в MDX.
+
+
+
+https://github.com/LLazyEmail/awesome-email-marketing/blob/main/improvements.md
+
+
+
+Миним идея посмотреть как работает markdown-it, но я думаю даже если начнем использовать его,  это просто будет промежуточный вариант и возможно нам нужно просто пропускать его и сразу идти в MDX. потому что вместе с mdx можно будет пойти в transition 
 https://github.com/markdown-it/markdown-it#plugins-load
 
 
-
+я придумал такой кастомный блок, который можно будет засунуть в source.md
 
 ```
 :::
@@ -146,6 +146,8 @@ https://github.com/markdown-it/markdown-it#plugins-load
 
 **REGEXP_IMAGE, REGEXP_LINK, REGEXP_H2, REGEXP_H3**
 
+
+еще я бы ввел понятие section
 
 
 
