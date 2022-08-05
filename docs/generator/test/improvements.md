@@ -48,6 +48,8 @@
 
 - [Task 22: Simple tasks for main branch #403](#task-22-simple-tasks-for-main-branch-403)
 
+- [Task 23: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex #67](#task-23-подумать-о-простых-компонентах-которые-делаются-в-typography-и-их-связи-с-markdown-regex-67)
+
 
 # Husky and eslint as actions [#933](https://github.com/LLazyEmail/markdown-to-email/issues/933)
 
@@ -928,6 +930,27 @@ Template Class Entity
 
 ---
 
+## Task 23: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex [#67](https://github.com/LLazyEmail/nomoretogo_email_template/issues/67)
+
+https://github.com/LLazyEmail/markdown-regex/blob/main/readme.md
+
+https://github.com/LLazyEmail/nomoretogo_email_template/tree/main/components/typography/src/components
+
+https://github.com/LLazyEmail/_trying_simple_tags
+
+https://github.com/lit/lit/tree/main/packages/lit-starter-js
+
+https://codelabs.developers.google.com/codelabs/lit-brick-viewer#6
+
+https://codelabs.developers.google.com/codelabs/the-lit-path#0
+
+https://open-wc.org/codelabs/basics/lit-html.html#0
+
+https://github.com/fernandopasik/hello-web-components
+
+https://open-wc.org/docs/development/generator/
+
+https://open-wc.org/guides/developing-components/code-examples/
 
 
 
