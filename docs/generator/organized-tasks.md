@@ -69,3 +69,28 @@ https://app.asana.com/0/1201360899207493/1202700551974378
 > 
 > скажи что бы ты хотел чтобы Светлана перенесла?
 
+
+[sub task] trying to parse custom markdown tags
+https://github.com/LLazyEmail/markdown-to-email/issues/1384
+
+
+```
+:::
+![Recipe One](https://raw.githubusercontent.com/LLazyEmail/nomoretogo_email_template/main/data/images/recipe1.jpeg)
+[recipe](https://www.nomoretogo.com/weekly-meal-plan-menu-122214/)
+## Grilled Salmon with Chipotle Cream Sauce
+### over Potato Poblano Hash and Broccolini
+
+:::
+```
+
+**REGEXP_IMAGE, REGEXP_LINK, REGEXP_H2, REGEXP_H3**
+
+
+
+https://github.com/LLazyEmail/awesome-email-marketing/blob/main/improvements.md
+
+https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
+
+
+
