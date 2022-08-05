@@ -70,13 +70,10 @@ https://app.asana.com/0/1201360899207493/1202700551974378
 > скажи что бы ты хотел чтобы Светлана перенесла?
 
 
+### 4. Can you also fix documentation deploy error? I feel it's very simple, but I dont have time to make it work.
+https://github.com/LLazyEmail/documentation/actions
 
 
-
-
-
-### [sub task] trying to parse custom markdown tags
-https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 
 
@@ -106,6 +103,12 @@ https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 Я понимаю, что легче от этого не станет. Но мы сможем использовать эту логику в nmtg темплейте.
 
+
+Я считаю что частично, логика сборных реплейсеров была сделана в блоке со сложными lists.
+посути там несколько реплейсеров которые позволяют сделать лист внутри листа. 
+
+[Можешь посмотреть в код, что я имею ввиду](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/callbacks/html/methods/lists.js)
+
 ---
 
 
@@ -123,16 +126,20 @@ https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 
 
+### [sub task] trying to parse custom markdown tags
+https://github.com/LLazyEmail/markdown-to-email/issues/1384
+
+
 
 https://github.com/LLazyEmail/awesome-email-marketing/blob/main/improvements.md
 
 
 
-Миним идея посмотреть как работает markdown-it, но я думаю даже если начнем использовать его,  это просто будет промежуточный вариант и возможно нам нужно просто пропускать его и сразу идти в MDX. потому что вместе с mdx можно будет пойти в transition 
-https://github.com/markdown-it/markdown-it#plugins-load
+Мини-идея это посмотреть как работает [markdown-it](https://github.com/markdown-it/markdown-it#plugins-load), но я думаю даже если начнем использовать его,  это просто будет промежуточный вариант и возможно нам нужно просто пропускать его и сразу идти в MDX. потому что вместе с mdx можно будет пойти в transition из текущей конфигурации как rollup модуль и вызов через CLI в сторону проекта на nextjs с приятным деплоем и давать возможность "звать" генератор через API.
 
 
-я придумал такой кастомный блок, который можно будет засунуть в source.md
+
+Я придумал такой кастомный блок, который можно будет засунуть в source.md
 
 ```
 :::
@@ -144,15 +151,11 @@ https://github.com/markdown-it/markdown-it#plugins-load
 :::
 ```
 
-**REGEXP_IMAGE, REGEXP_LINK, REGEXP_H2, REGEXP_H3**
+ну и круто было бы чтобы внутри реплейсера
 
+_recipe
 
-еще я бы ввел понятие section
-
-
-
-
-https://user-images.githubusercontent.com/1469198/180642690-d6ca3af5-f9eb-4a55-a7c3-cc851c342a3a.mp4
+находились вызовы реплейсеров
 
 ```
 _image
@@ -160,6 +163,21 @@ _link
 _title
 _subtitle
 ```
+
+в идеале б конечно еще использовать уже существующие RegEx а не создавать очередного монстра.
+**REGEXP_IMAGE, REGEXP_LINK, REGEXP_H2, REGEXP_H3**
+
+
+Плюс Еще я бы ввел понятие section.
+
+например сейчас у нас 6 рецептов  по два в каждой секции. на данный момент не принципиально, но возможно в будущем этот блок бы нам пригодился.
+
+
+
+
+https://user-images.githubusercontent.com/1469198/180642690-d6ca3af5-f9eb-4a55-a7c3-cc851c342a3a.mp4
+
+
 
 ```
 :::
