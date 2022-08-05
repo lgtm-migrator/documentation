@@ -34,6 +34,7 @@ is it the same thing as https://github.com/LLazyEmail/markdown-to-email/issues/1
 ### 2. To review our current nmtg/typography package and receive your feedback
 
 package name: `nmtg-template-mailerlite-typography`
+
 Link: https://github.com/LLazyEmail/markdown-to-email/issues/1383
 
 [link to code](https://github.com/LLazyEmail/nomoretogo_email_template/tree/main/sub-modules/typography/src/components)
