@@ -209,18 +209,6 @@ import {
   _link,
   _blockquote,
   _meme,
-  _header,
-  _italic,
-  _del,
-  _q,
-  _code,
-  _hr,
-  // _empty,
-  //-----
-  _ulList,
-  _olList,
-  getParsedSubList,
-  //--------------
   _image,
   _paragraphWrapper,
   _sponsorship,
@@ -233,21 +221,8 @@ import {
 import {
   REGEXP_HEADER,
   REGEXP_IMAGE,
-  REGEXP_LINK,
-  REGEXP_STRONG,
-  REGEXP_DEL,
-  REGEXP_Q,
-  REGEXP_CODE,
-  REGEXP_UL_LIST,
-  REGEXP_OL_LIST,
-  REGEXP_BLOCKQUOTE,
-  REGEXP_HR,
-  REGEXP_BR,
   REGEXP_EM,
   REGEXP_SPONSORSHIP,
-  REGEXP_MEM,
-  REGEXP_PREVIEW_TEXT,
-  REGEXP_PARAGRAPH,
   REGEXP_SEPARATOR,
 } from '../../constants/index';
 
@@ -268,46 +243,17 @@ import objectBuilder from '../md/object-builder';
 import {
   headingLiteral,
   titleLiteral,
-  //---------
-  imageLiteral,
-  italicLiteral,
-  linkLiteral,
-  //-----
-  listLiteral,
-  listItemLiteral,
-  //------------
-  
   paragraphLiteral,
   strongLiteral,
   subtitleLiteral,
   separatorLiteral,
 } from '../email-prototypes/plainjs/typography/index';
 
-
-
-
-
 const strong = objectBuilder(REGEXP_STRONG, _strong, strongLiteral);
 // console.log(strong);
 
 
 const link = objectBuilder(REGEXP_LINK, _link, linkLiteral);
-
-// delLiteral,
-const del = objectBuilder(REGEXP_DEL, _del, false);
-
-
-const image = objectBuilder(REGEXP_IMAGE, _image, imageLiteral);
-
-const previewText = objectBuilder(
-  REGEXP_PREVIEW_TEXT,
-  _previewText,
-  previewTextLiteral,
-);
-
-
-
-
 
 const listItem = objectBuilder(
   REGEXP_SUB_LISTS, 
@@ -321,22 +267,6 @@ const list = objectBuilder(REGEXP_UL_LIST, getParsedSubList, listLiteral);
 
 //  memeLiteral,
 const memes = objectBuilder(REGEXP_MEM, _meme, false);
-
-
-// 'REGEXP_EMPTY_UL': {
-//   constant: REGEXP_EMPTY_UL,
-//   replacer: emptyUl
-// },
-
-// 'REGEXP_EMPTY_OL': {
-//   constant: REGEXP_EMPTY_OL,
-//   replacer: emptyOl
-// },
-
-// 'REGEXP_EMPTY_BLOCKQUOTE': {
-//   constant: REGEXP_EMPTY_BLOCKQUOTE,
-//   replacer: emptyBlockQuote
-// },
 
 export default {
   strong,
@@ -423,20 +353,11 @@ const { sponsorLiteral, previewTextLiteral } = body;
   // sponsorComponent
   
   
-  //strong as strongLiteral,
-
-  //image as imageLiteral,
-  //paragraph as paragraphLiteral,
-  
 // TODO add here error handlers from domain/error-handle.
 // removing them from this file
 
 import {
   headingLiteral,
-  imageLiteral,
-
-
-  subtitleLiteral,
   separatorLiteral 
 } from '../plainjs-template/typography/index';
 
@@ -452,16 +373,6 @@ const strong = objectBuilder(REGEXP_STRONG, _strong, strongLiteral);
 
 // as linkLiteral,  
 const link = objectBuilder(REGEXP_LINK, _link, linkLiteral)
-
-// console.log(header);
-
-  //  qLiteral,
-const q = objectBuilder(REGEXP_Q, _q, qLiteral)
-
-  //   hrLiteral,
-
-const hr = objectBuilder(REGEXP_HR, _hr, hrLiteral)
-
 
 export default { 
   strong,   
