@@ -448,32 +448,10 @@ _title
 _subtitle
 ```
 
-```
-:::
-![Recipe One](https://raw.githubusercontent.com/LLazyEmail/nomoretogo_email_template/main/data/images/recipe1.jpeg)
-[recipe](https://www.nomoretogo.com/weekly-meal-plan-menu-122214/)
-## Grilled Salmon with Chipotle Cream Sauce
-### over Potato Poblano Hash and Broccolini
-
-:::
-```
-
-**REGEXP_IMAGE, REGEXP_LINK, REGEXP_H2, REGEXP_H3**
 
 
 
-### [complex callbacks](https://app.asana.com/0/1201360899207493/1202700806644230)
-```
-у меня есть вопрос/идея которую бы я хотел обсудить.
-я записал видео в этом таске. 
 
-Если кратко - я немного торможу окончание работу над nmtg/typography потому что мне лень просто добить этот модуль без каких то импрувментов.
-
-и у меня есть вопрос насчет создание сложных кастомных элементов, которые мне непонятно как "правильно" сделать
-```
-
-Task with video: https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
-Sub-task: https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 
 
