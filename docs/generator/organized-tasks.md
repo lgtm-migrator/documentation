@@ -32,11 +32,13 @@ is it the same thing as https://github.com/LLazyEmail/markdown-to-email/issues/1
 
 
 ### 2. To review our current nmtg/typography package and receive your feedback
-https://github.com/LLazyEmail/markdown-to-email/issues/1383
+
+package name: `nmtg-template-mailerlite-typography`
+Link: https://github.com/LLazyEmail/markdown-to-email/issues/1383
 
 [link to code](https://github.com/LLazyEmail/nomoretogo_email_template/tree/main/sub-modules/typography/src/components)
 
-package name: `nmtg-template-mailerlite-typography`
+
 ![image](https://user-images.githubusercontent.com/1469198/183028007-3f041275-660d-4f6c-9447-565c4ec5a93a.png)
 
 
