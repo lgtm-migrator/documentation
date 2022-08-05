@@ -50,7 +50,7 @@ I made a video, please take a look: https://github.com/LLazyEmail/react-plain-te
 
 
 
-### 2. question to think about
+### 2. question to think about - как назвать наши packages в организации?
 https://github.com/LLazyEmail/_trying-lit/issues/133
 
 
