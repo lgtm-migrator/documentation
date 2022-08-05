@@ -154,6 +154,7 @@ _subtitle
 ```
 
 Task with video: https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
+
 Sub-task: https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 
