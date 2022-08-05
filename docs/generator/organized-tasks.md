@@ -70,30 +70,20 @@ https://app.asana.com/0/1201360899207493/1202700551974378
 > скажи что бы ты хотел чтобы Светлана перенесла?
 
 
-[sub task] trying to parse custom markdown tags
+
+
+
+
+
+### [sub task] trying to parse custom markdown tags
 https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 
-```
-:::
-![Recipe One](https://raw.githubusercontent.com/LLazyEmail/nomoretogo_email_template/main/data/images/recipe1.jpeg)
-[recipe](https://www.nomoretogo.com/weekly-meal-plan-menu-122214/)
-## Grilled Salmon with Chipotle Cream Sauce
-### over Potato Poblano Hash and Broccolini
-
-:::
-```
-
-**REGEXP_IMAGE, REGEXP_LINK, REGEXP_H2, REGEXP_H3**
 
 
-
-https://github.com/LLazyEmail/awesome-email-marketing/blob/main/improvements.md
-
-https://github.com/LLazyEmail/documentation/blob/main/docs/generator/test/improvements.md#task-14
+# Сложные, "кастомные" блоки темлпейта и сборные callbacks.
 
 
-https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
 
 
 
@@ -110,6 +100,18 @@ sponsorship, memes, etc.
 
 сборный replacer/callback
 
+
+
+https://github.com/LLazyEmail/awesome-email-marketing/blob/main/improvements.md
+
+https://github.com/LLazyEmail/documentation/blob/main/docs/generator/test/improvements.md#task-14
+
+
+https://github.com/LLazyEmail/nomoretogo_email_template/issues/192
+
+Как я пришел к этой проблеме?
+
+
 в nmtg есть блок рецептов. там 4 переменные внутри
 - image
 - link
@@ -118,6 +120,22 @@ sponsorship, memes, etc.
 
 также можно посмотреть в markdown-it, но я думаю что это просто будет прожетуточный вариант и воможно нужно просто пропускать и сразу идти в MDX.
 https://github.com/markdown-it/markdown-it#plugins-load
+
+
+
+
+```
+:::
+![Recipe One](https://raw.githubusercontent.com/LLazyEmail/nomoretogo_email_template/main/data/images/recipe1.jpeg)
+[recipe](https://www.nomoretogo.com/weekly-meal-plan-menu-122214/)
+## Grilled Salmon with Chipotle Cream Sauce
+### over Potato Poblano Hash and Broccolini
+
+:::
+```
+
+**REGEXP_IMAGE, REGEXP_LINK, REGEXP_H2, REGEXP_H3**
+
 
 
 https://user-images.githubusercontent.com/1469198/180642690-d6ca3af5-f9eb-4a55-a7c3-cc851c342a3a.mp4
