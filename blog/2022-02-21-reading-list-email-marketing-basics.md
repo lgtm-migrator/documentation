@@ -36,3 +36,6 @@ tags: [hola, docusaurus]
 * [Options to start a paid newsletter ](https://www.getrevue.co/profile/the_week_in_newsletters/issues/options-to-start-a-paid-newsletter-292557)
 * [How much is your newsletter worth?](https://www.getrevue.co/profile/the_week_in_newsletters/issues/how-much-is-your-newsletter-worth-285518)
 * [Risks and rewards of a paid newsletter ](https://www.getrevue.co/profile/the_week_in_newsletters/issues/risks-and-rewards-of-a-paid-newsletter-280186)
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
