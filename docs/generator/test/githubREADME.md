@@ -120,3 +120,6 @@ Modules for Markdown-to-Email project
 - [How to use levels function in Logger](https://www.tabnine.com/code/javascript/functions/npmlog/Logger/levels)
 - [Comparing Node.js logging tools](https://blog.logrocket.com/comparing-node-js-logging-tools/)
 - [How to handle log events with the npmlog library?](https://stackoverflow.com/questions/72506435/how-to-handle-log-events-with-the-npmlog-library)
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
