@@ -29,6 +29,7 @@ Now you can send your empty email with "Hello world" from your server and be hap
 And while my module is written in JS, I don't think that it is a hard task to convert it into other languages if someone wants to contribute -> feel free to jump abroad. I’m always friendly to contributors' pull requests.
 
 
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
 Ok, let's try to imagine that you are building your email-related functionality, related to emails from scratch -- you will try to organize email messages in a separate folder, maybe even make it translatable into multi-languages, testing your ability to render it with variables received from other sources...
 
 
