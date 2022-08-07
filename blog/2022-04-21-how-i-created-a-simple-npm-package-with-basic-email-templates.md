@@ -91,3 +91,6 @@ tags: [hola, docusaurus]
 * [https://automizy.com/blog/email-list-management/](https://automizy.com/blog/email-list-management/)
 * [https://automizy.com/blog/b2b-email-marketing/](https://automizy.com/blog/b2b-email-marketing/)
 * [https://automizy.com/blog/drip-email-campaign-examples/](https://automizy.com/blog/drip-email-campaign-examples/)
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
