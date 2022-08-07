@@ -195,3 +195,5 @@ Line 176 in dae7dbc
  
 https://github.com/LLazyEmail/markdown-to-email/blob/my-name-is-debby/src/helper/command-line-methods.js
 
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
