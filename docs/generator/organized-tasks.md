@@ -208,4 +208,4 @@ Task with video: https://github.com/LLazyEmail/nomoretogo_email_template/issues/
 Sub-task: https://github.com/LLazyEmail/markdown-to-email/issues/1384
 
 
-
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/
