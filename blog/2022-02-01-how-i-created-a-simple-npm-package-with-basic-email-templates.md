@@ -69,4 +69,4 @@ and I'm happy to see it on npm(while it's not indexed well, yet): [https://www.n
 Oops, looks like I didn't move tests into a new repository 🙂 time to do the next release 🙂 
 
 
-
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
