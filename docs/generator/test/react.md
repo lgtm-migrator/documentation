@@ -444,3 +444,6 @@ A clear and concise description of any alternative solutions or features you've 
 ### Maintainability (extensibility points in the design)
 
 ### Logging
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
