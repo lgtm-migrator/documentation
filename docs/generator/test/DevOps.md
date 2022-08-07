@@ -50,8 +50,7 @@ can be a great illustration
 
 ![11](https://user-images.githubusercontent.com/1469198/175816381-5ad355cb-304d-457c-a0d6-aab53a8af71f.png "11")
 
-
-
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
 
 
 
