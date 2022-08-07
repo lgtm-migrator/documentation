@@ -98,3 +98,6 @@ Basically, I copy-pasted a render method from other repositories. Yes, they has 
 I want to extend and isolate that render method, so it can be an independent package, suit our project needs and be easy to customize, if necessary (there is always a need to customize things. you can't make it work from the first shot).
 
 Show some love if you want more articles like this one! any activity will be appreciated.
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
