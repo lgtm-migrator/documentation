@@ -28,6 +28,12 @@
 
 # Task 1: Find a way to handle errors carefully [Important] [#970](https://github.com/LLazyEmail/markdown-to-email/issues/970)
 
+| Name     | About    | Title    | Labels    | Assignees  |
+|:--------:|:--------:|:--------:|:---------:|:----------:|
+| Find a way to handle errors carefully [Important] | handle errors carefully  | "" | "" | "" |
+
+## Reason or Problem
+
 Большинство вариантов, перечисленные внизу связанны с установкой тех или иных modules/tools, и проверкой гипотез.
 
 Основные слабые точки нашего проекта:
@@ -39,7 +45,49 @@
 Добавление мелких модулей можно сделать за пару выходных и посмотреть нравится нам функционал или нет.
 для более сложных вещей прийдется переделывать нашу структуру. что хорошо, но потребует большего количества времени.
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+---
+
 ## Task 2: Priority
+
+| Name     | About    | Title    | Labels    | Assignees  |
+|:--------:|:--------:|:--------:|:---------:|:----------:|
+| Priority | Priority  | "" | "" | "" |
+
+## Reason or Problem
 
 Модули которые я нагуглил, популярные для вывода ошибок.
 
@@ -58,6 +106,40 @@ Not sure if we can find a solution for everything, but we need to find a way to 
 
 - like more throw errors is good for debugging and building new things,
 - logging will help us to be on the pulse of changes at one place, etc
+
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
 
 ---
 
@@ -140,12 +222,54 @@ Link: https://www.testim.io/pricing/
 
 # Task 5: Best practices for error handling #63
 
+| Name     | About    | Title    | Labels    | Assignees  |
+|:--------:|:--------:|:--------:|:---------:|:----------:|
+| Best practices for error handling #63 | error handling  | "" | "" | "" |
+
+## Reason or Problem
+
 Read a few of those articles, it might help you with cases, like this one: https://github.com/LLazyEmail/nomoretogo_email_template/blob/main/src/components/tableWithTwoRecipes.js#L72
 
 - https://betterprogramming.pub/javascript-clean-code-error-handling-9cd7e87fdbe3
 - https://iaincollins.medium.com/error-handling-in-javascript-a6172ccdf9af
 - https://blog.appsignal.com/2021/11/03/designing-error-messages-and-a-logging-strategy-in-nodejs.html
 - https://www.valentinog.com/blog/error/
+
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+---
 
 ### Add here error handlers from domain error-handle
 - https://github.com/LLazyEmail/markdown-to-email/blob/a7f26e56bc00693e254ad112103004d5eda26f84/src/domain/replace-markdown/pre-replace-objects.js#L80
@@ -187,6 +311,12 @@ Read a few of those articles, it might help you with cases, like this one: https
 
 ## Task 6: More error handling [#930](https://github.com/LLazyEmail/markdown-to-email/issues/930)
 
+| Name     | About    | Title    | Labels    | Assignees  |
+|:--------:|:--------:|:--------:|:---------:|:----------:|
+| More error handling [#930] | error handling  | "" | "" | "" |
+
+## Reason or Problem
+
 markdown-to-email/src/callbacks/replace-md.js
 
 Line 176 in dae7dbc
@@ -194,6 +324,42 @@ Line 176 in dae7dbc
  throw new Error('name of callback is undefined or empty'); 
  
 https://github.com/LLazyEmail/markdown-to-email/blob/my-name-is-debby/src/helper/command-line-methods.js
+
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+---
 
 
 ## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
