@@ -116,3 +116,6 @@ Will your curated newsletter contain email marketing tips and tricks?
 Alternatively, will you curate content on web design trends?
 
 Choosing your topic is one of the most critical parts of starting a curated email newsletter.
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
