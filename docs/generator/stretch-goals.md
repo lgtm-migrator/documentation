@@ -77,3 +77,6 @@ https://www.npmjs.com/package/commander
 - https://github.com/MarcL/markdown-to-mailchimp
 
 - https://github.com/pluralsight/htmlTagValidator
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/
