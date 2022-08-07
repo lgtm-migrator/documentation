@@ -148,3 +148,6 @@ I am going to write more articles about that.
 [https://dev.to/atherdon/created-a-module-for-markdown-regexes-3a1b](https://dev.to/atherdon/created-a-module-for-markdown-regexes-3a1b)
 
 [https://dev.to/atherdon/creating-an-advanced-structure-for-html-email-template-1n28](https://dev.to/atherdon/creating-an-advanced-structure-for-html-email-template-1n28)
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
