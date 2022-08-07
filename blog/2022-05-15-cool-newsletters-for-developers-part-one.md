@@ -223,3 +223,6 @@ Deno Weekly
 weekly roundup of news, tutorials, and projects
 
 [https://denoweekly.com/](https://denoweekly.com/?ref=hackernoon.com)
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
