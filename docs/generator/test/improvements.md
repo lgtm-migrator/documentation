@@ -953,4 +953,4 @@ https://open-wc.org/docs/development/generator/
 https://open-wc.org/guides/developing-components/code-examples/
 
 
-
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
