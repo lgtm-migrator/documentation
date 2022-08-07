@@ -61,3 +61,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 * [https://hackernoon.com/cool-resources-for-sending-emails](https://hackernoon.com/cool-resources-for-sending-emails)
 
 
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
