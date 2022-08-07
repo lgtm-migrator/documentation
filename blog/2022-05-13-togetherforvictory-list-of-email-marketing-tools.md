@@ -142,3 +142,6 @@ Newsletter2go [https://docs.newsletter2go.com/](https://docs.newsletter2go.com/)
 - Keap [https://keap.com/](https://keap.com/)
 
 I'll continue to extend this list later, the source will be located in this repository: https://github.com/LLazyEmail/awesome-email-marketing.
+
+
+## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
