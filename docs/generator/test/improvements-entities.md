@@ -81,3 +81,7 @@ https://github.com/piotrwitek/utility-types
 ![carbon (4)](https://user-images.githubusercontent.com/1469198/183511718-d1c66965-0903-46e1-acb6-f1426879398d.png)
 ![carbon](https://user-images.githubusercontent.com/1469198/183511725-418a7b7a-34b0-4838-a1c3-705903cd94a8.png)
 
+
+https://github.com/LLazyEmail/markdown-to-email/blob/fc31c66cc4dabd63e2a89f89dfb3f5af4b4dc8c1/src/domain/replace-class/pre-replace-object/index.js
+
+https://github.com/LLazyEmail/_trying-lit/blob/main/sub-modules/Typography/src/components/italic.js
