@@ -624,6 +624,8 @@ here i totally agree with you. switch sucks.
 ok, let me move this part of our conversation into "improvements.md"
 document that I'm still working on.
 
+
+
 ## Task 18: DDD [#1003](https://github.com/LLazyEmail/markdown-to-email/issues/1003)
 
 https://medium.com/spotlight-on-javascript/domain-driven-design-for-javascript-developers-9fc3f681931a
@@ -632,7 +634,7 @@ https://khalilstemmler.com/articles/domain-driven-design-intro/
 
 https://en.wikipedia.org/wiki/Domain-driven_design
 
-__Мария Тихоновна, [10.07.2022 02:40]__
+
 
 Entity
 
@@ -651,19 +653,40 @@ Object
 -csllback
 -literal
 
-__Мария Тихоновна, [10.07.2022 02:41]__
-
 Error
 
 message
 try catch
 Debug and how to play with it.
 
+
+Реорганизация.
+- Апи для того чтобы можно было деплоить и потом просто звать метод 
+- Обновления структуры
+- Для работы с кучей темплейтов
+
+npm org
+
+
+Конвертация генератора в апи на основе верселя.
+Или работа с компонентами 
+Или сетап логера и тд
+
+
+Поднять nextjs сделать апи с несколькими роутами. 
+Передавать контент который у нас есть в генератор и леплой на версель
+
+---
+
 ## Task 19: Mdx bundler [#1337](https://github.com/LLazyEmail/markdown-to-email/issues/1337)
 
 [Mdx bundler](https://github.com/kentcdodds/mdx-bundler)
 
 https://github.com/hashicorp/next-mdx-remote
+
+
+---
+
 
 ## Task 20: [Replace md](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/react/replace-markdown/replace-md.js)
 
