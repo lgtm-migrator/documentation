@@ -636,31 +636,32 @@ https://en.wikipedia.org/wiki/Domain-driven_design
 
 
 
-Entity
+## Entity
 
-Trmplate
--full
--content only
--no ads
+### Template
+- full
+- content only
+- no ads
 
-Callback
--name
--arguments
--settings object
+### Callback
+- name
+- arguments
+- settings object
+- errors
 
-Object
--regex
--csllback
--literal
+### Object typography replacer???
+- regex
+- csllback
+- literal
 
 Error
 
-message
-try catch
-Debug and how to play with it.
+- message
+- try catch
+- Debug and how to play with it.
 
 
-Реорганизация.
+### Реорганизация.
 - Апи для того чтобы можно было деплоить и потом просто звать метод 
 - Обновления структуры
 - Для работы с кучей темплейтов
@@ -668,13 +669,13 @@ Debug and how to play with it.
 npm org
 
 
-Конвертация генератора в апи на основе верселя.
-Или работа с компонентами 
-Или сетап логера и тд
+- Конвертация генератора в апи на основе верселя.
+- Или работа с компонентами 
+- Или сетап логера и тд
 
 
-Поднять nextjs сделать апи с несколькими роутами. 
-Передавать контент который у нас есть в генератор и леплой на версель
+- Поднять nextjs сделать апи с несколькими роутами. 
+- Передавать контент который у нас есть в генератор и леплой на версель
 
 ---
 
