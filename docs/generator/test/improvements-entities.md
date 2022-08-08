@@ -2,9 +2,27 @@
 
 ## Template
 
--> отдельно мы передаем и init typography
--> отдельно передаем модуль и "full template" из display factory
+- отдельно мы передаем и init typography
 
+- отдельно передаем модуль и "full template" из display factory
+
+
+### Вызов методов типа FullTemplate
+
+![carbon](https://user-images.githubusercontent.com/1469198/183511725-418a7b7a-34b0-4838-a1c3-705903cd94a8.png)
+
+
+![carbon (1)](https://user-images.githubusercontent.com/1469198/183511684-6432812f-7641-4089-8f92-b9b222ac3d62.png)
+
+
+### Подключение подмодуля typography
+
+![carbon (2)](https://user-images.githubusercontent.com/1469198/183511697-d1bb5be5-8262-46ce-bc0c-cec9aa09319b.png)
+![carbon (3)](https://user-images.githubusercontent.com/1469198/183511713-8032eda2-db0b-406d-abbb-200c4d5b2327.png)
+![carbon (4)](https://user-images.githubusercontent.com/1469198/183511718-d1c66965-0903-46e1-acb6-f1426879398d.png)
+
+
+---
 
 - Темплейты могут быть разных типов.
 - Нужна работа с ошибками. Чтобы их проще было ловить.
@@ -59,9 +77,12 @@
 - нужен красивый description
 - самим нужно посмотреть на классы TS и сделать выбор, деву ненадо об этом думать.
 
+
 img - typography
 
+
 img - main method
+
 
 img - single typography method
 
@@ -69,17 +90,17 @@ img - single typography method
 Errors - сейчас неудобно, пока код не отлажен возникают проблемы, который можно ловить на уровне абстракции.
 
 
-https://github.com/sindresorhus/type-fest
+- https://github.com/sindresorhus/type-fest
 
-https://github.com/piotrwitek/utility-types
+- https://github.com/piotrwitek/utility-types
 
 
-
-![carbon (1)](https://user-images.githubusercontent.com/1469198/183511684-6432812f-7641-4089-8f92-b9b222ac3d62.png)
+<!-- 
+![carbon (1)](https://user-images.githubusercontent.com/1469198/183511684-6432812f-7641-4089-8f92-b9b222ac3d62.png) -->
 ![carbon (2)](https://user-images.githubusercontent.com/1469198/183511697-d1bb5be5-8262-46ce-bc0c-cec9aa09319b.png)
 ![carbon (3)](https://user-images.githubusercontent.com/1469198/183511713-8032eda2-db0b-406d-abbb-200c4d5b2327.png)
 ![carbon (4)](https://user-images.githubusercontent.com/1469198/183511718-d1c66965-0903-46e1-acb6-f1426879398d.png)
-![carbon](https://user-images.githubusercontent.com/1469198/183511725-418a7b7a-34b0-4838-a1c3-705903cd94a8.png)
+<!-- ![carbon](https://user-images.githubusercontent.com/1469198/183511725-418a7b7a-34b0-4838-a1c3-705903cd94a8.png) -->
 
 
 https://github.com/LLazyEmail/markdown-to-email/blob/fc31c66cc4dabd63e2a89f89dfb3f5af4b4dc8c1/src/domain/replace-class/pre-replace-object/index.js
