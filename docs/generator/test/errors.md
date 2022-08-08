@@ -71,13 +71,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Performance
 
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 
@@ -137,9 +130,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Configuration
 
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 
@@ -261,13 +251,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Performance
 
-### Security
 
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 
@@ -309,6 +293,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ![Parser runs from build so hard to trace](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images%20folder/parser-runs-from-build-so-hard-to-trace.png "Parser runs from build so hard to trace")
 
+
 ## Task 6: More error handling [#930](https://github.com/LLazyEmail/markdown-to-email/issues/930)
 
 | Name     | About    | Title    | Labels    | Assignees  |
@@ -347,19 +332,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
-
 ---
 
 
-## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
