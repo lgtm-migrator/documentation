@@ -65,13 +65,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Performance
 
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 # Task 3: Design system
@@ -113,13 +106,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Performance
 
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 # Task 4: Storybook
@@ -169,13 +155,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Performance
 
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 # Task 5: Display on preview
@@ -219,13 +198,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Performance
 
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 # Task 6: Test table components and freeze development
@@ -264,13 +236,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Performance
 
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 # Task 7: Basic React components working without a lotof efforts 
@@ -307,15 +272,8 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Other Design tenets
 
-### Performance
 
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
+----
 
 ## Table
 
@@ -379,13 +337,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Performance
 
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 # Task 9: Try to make "full-template" work [#385](https://github.com/LLazyEmail/markdown-to-email/issues/385)
@@ -437,13 +388,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Performance
 
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 
-## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
