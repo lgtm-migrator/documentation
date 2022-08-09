@@ -200,3 +200,33 @@ main display method connected
 возможно предусмотреть возможности для конфига???
 
 
+TS
+
+```
+// Interface (abstraction)
+interface Box {
+  length: number;
+  width: number;
+}
+
+const boxOne: Box = { length: 1, width: 2 }; // ✅ Valid! Has all props
+const boxTwo: Box = { length: 1 };           // ❌ Not valid, missing prop
+// Interface (abstraction)
+interface Box {
+  length: number;
+  width: number;
+}
+
+// Concrete class implementing Box abstraction
+class MobileBox implements Box { // ✅ Valid! Implements all necessary props
+  public length: number;  
+  public width: number;
+
+  constructor (length: number, width: number) {
+    this.length = length;
+    this.width = width;
+  }
+}
+
+let boxThree = new MobileBox(1, 2); 
+```
