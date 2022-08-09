@@ -74,7 +74,9 @@ https://app.asana.com/0/1201360899207493/1202700551974378
 https://github.com/LLazyEmail/documentation/actions
 
 
+### Вопрос о найме фрилансера
 
+Детальное описание: https://github.com/LLazyEmail/documentation/blob/main/docs/generator/test/improvements-entities.md
 
 
 
@@ -106,6 +108,8 @@ https://github.com/LLazyEmail/documentation/actions
 
 Я считаю что частично, логика сборных реплейсеров была сделана в блоке со сложными lists.
 посути там несколько реплейсеров которые позволяют сделать лист внутри листа. 
+При этом, код работы с листами нужно тоже обновить, чтобы он работал по предложенной мной выше логике.
+т.е код внутри листа должен состоять их 5-8 строк из них 3 строки - это просто вызов `_subList, _listItem` методов
 
 [Можешь посмотреть в код, что я имею ввиду](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/callbacks/html/methods/lists.js)
 
