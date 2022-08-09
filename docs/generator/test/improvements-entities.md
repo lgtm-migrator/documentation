@@ -50,8 +50,9 @@ Link: https://github.com/LLazyEmail/_trying-lit/blob/main/sub-modules/Typography
 - content only 
 - no ads
 
-показать как сейчас все работает.
 
+Типы теплейта - один должен быть обязательно. 
+может быть несколько типов подключено, имена могут быть разные.
 
 
 
@@ -114,8 +115,8 @@ Errors - сейчас неудобно, пока код не отлажен во
 - https://github.com/piotrwitek/utility-types
 
 
-// Prevent easy human error (using the key instead of the name)
-// It's typo-resistant
+- Prevent easy human error (example using the key instead of the name)
+- It's must be typo-resistant
 
 
 Нужно уточнить, что со временем мы планируем перепиливать логику нашего генератора, но эти изменения не должны затронуть ваш класс, тоесть он должен быть "bulletproof" для таких изменеий.
@@ -160,9 +161,9 @@ Errors - сейчас неудобно, пока код не отлажен во
 
 Состояния
 
-single template obj created
-typography connected without errors
-main display method connected
+### single template obj created
+- typography connected without errors
+- main display method connected
 0 errors, "ready to work"
 
 При запуске typography replacers могут генерировать ошибки.
@@ -170,9 +171,7 @@ main display method connected
 предусмотреть типы работы prod & debug - в debug хочется детальный trace еслии чтото ломается.
 
 
-Типы теплейта - один должен быть обязательно. может быть несколько типов подключено, имена могут быть разные.
-
-
+### 
 после этого мы добавляем content внутрь основного метода. Render можно его называть.
 
 
