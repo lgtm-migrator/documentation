@@ -239,3 +239,5 @@ export class CustomTypeError extends Error {
     }
 }
 ```
+
+https://betterprogramming.pub/clean-node-js-architecture-with-nestjs-and-typescript-34b9398d790f
