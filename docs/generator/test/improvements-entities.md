@@ -230,3 +230,12 @@ class MobileBox implements Box { // ✅ Valid! Implements all necessary props
 
 let boxThree = new MobileBox(1, 2); 
 ```
+
+
+```
+export class CustomTypeError extends Error {
+    constructor(type: string, value: any) {
+        super(`invalid value ${JSON.stringify(value)} provided for type ${type}`);
+    }
+}
+```
