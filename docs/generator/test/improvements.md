@@ -30,7 +30,7 @@
 
 - [Task 13](#task-13)
 
-- [Task 14](#task-14)
+- [Task 14 empty](#task-14-empty)
 
 - [Task 15](#task-15)
 
@@ -55,6 +55,11 @@
 
 ## Task 1: Apply husky git hook to specific branch only #186
 
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Apply husky git hook to specific branch only | husky git hook | "" | "" | "" |
+
+## Reason or Problem
 
 link: 
 
@@ -70,7 +75,41 @@ link:
 
 - https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/
 
+## Proposal or Solution
 
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
 
 ## Husky and eslint as actions #9333
 
@@ -87,20 +126,107 @@ https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-a
 
 ---
 
-
-
 ## Task 2: Import no cycle issue #1286
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Import no cycle issue | Import no cycle issue | "" | "" | "" |
+
+## Reason or Problem
 
 ![import/no-cycle issue #1286](https://user-images.githubusercontent.com/1469198/178752138-476b7e4d-f251-4887-94ce-b903f0621b5a.png "import/no-cycle issue #1286")
 
 я пока просто уберу эту ошибку, но нужно будет подумать. вохможно моя структура хрень
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
 
 ## Task 3: Enable and connect react parser #1279
 
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Enable and connect react parser | Enable and connect react parser | "" | "" | "" |
+
+## Reason or Problem
+
 ![5](https://user-images.githubusercontent.com/1469198/179402426-6952843f-ae94-4f1a-87c0-f8563c448eab.png "5")
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 4: Well it is not good can be improved with lodash #1246
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Well it is not good can be improved with lodash | Well it is not good can be improved with lodash | "" | "" | "" |
+
+## Reason or Problem
 
 markdown-to-email/src/callbacks/html/methods/br.js
 
@@ -148,7 +274,50 @@ export function _br(text, newLines) {
 export default _br;
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 5: I propose to move inner things of this method into Replace runConfigure #1166
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| I propose to move inner things of this method into Replace runConfigure | I propose to move inner things of this method into Replace runConfigure | "" | "" | "" |
+
+## Reason or Problem
+
 ```
 Replacer.replaceMDBindedPreviewText = replaceMarkdownPreviewText.bind(state);
 
@@ -195,7 +364,49 @@ import {
   export default configureReplacer;
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 6: Replace this layout with plain v3 layout #1165
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Replace this layout with plain v3 layout | Replace this layout with plain v3 layout | "" | "" | "" |
+
+## Reason or Problem
 
 markdown-to-email/src/domain/replace-markdown/pre-replace-objects.js
 ```
@@ -277,7 +488,49 @@ export default {
 };
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 7: Enable const messages #1110
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Enable const messages | Enable const messages | "" | "" | "" |
+
+## Reason or Problem
 
 ```
 import { WARNING_IMAGE_VERSION, ERROR_SOURCE_DONT_HAVE, FULL_TEMPLATE_ERROR, HTML_EMAIL_SUCCESS, HTML_EMAIL_ERROR } from './constants';
@@ -306,12 +559,95 @@ function checkWarnings(warnings) {
     if (index) {
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 8: Vadim wants to add issue templates
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Vadim wants to add issue templates | Vadim wants to add issue templates | "" | "" | "" |
+
+## Reason or Problem
 
 from one of our last chats
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
 
 ## Task 9: Add here error handlers from domain error handle #1021
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Add here error handlers from domain error handle | Add here error handlers from domain error handle | "" | "" | "" |
+
+## Reason or Problem
 
 removing them from this file
 
@@ -385,8 +721,49 @@ export default {
 } 
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
 
 ## Task 10: Logger
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Logger | Logger | "" | "" | "" |
+
+## Reason or Problem
 
 - [Designing Error Messages and a Logging Strategy in Node.js](https://blog.appsignal.com/2021/11/03/designing-error-messages-and-a-logging-strategy-in-nodejs.html)
 - [Npmlog](https://www.npmjs.com/package/npmlog)
@@ -394,57 +771,329 @@ export default {
 - [Comparing Node.js logging tools](https://blog.logrocket.com/comparing-node-js-logging-tools/)
 - [How to handle log events with the npmlog library?](https://stackoverflow.com/questions/72506435/how-to-handle-log-events-with-the-npmlog-library)
 
+## Proposal or Solution
 
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
 
 ## Task 11
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| - | - | "" | "" | "" |
+
+## Reason or Problem
 
 Почему я бы хотел чтобы мы быстрее разобрали mdx. Есть ощущение(которому больше чем год) - что возможно будет заменить работу нашего replacer`a.
 но нужно подумать.
 
+## Proposal or Solution
 
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
 
 ## Task 12
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| - | - | "" | "" | "" |
+
+## Reason or Problem
 
 почему работа с подмодулями мне нравится. Потому что я легко могу раскидать модули на разные репозитории, настроить простые билды и легко дебажить и фиксить код.
 делать коммиты и небоятся что все зафейлится.
 
 нужно просто все настроить.
 
+## Proposal or Solution
 
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
 
 ## Task 13
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| - | - | "" | "" | "" |
+
+## Reason or Problem
 
 Почему хочется использовать реальный React components для быстрого запила templates.
 таким макаром мы можем наконецто уйти от странных "темлпейтов" и делать блоки фронтенда с помощью тех средств, которые для этого предпочтительнее и реаль работают лучше.
 
+## Proposal or Solution
 
-## Task 14 - empty
+A clear and concise description of what you want to happen.
 
+### Design
 
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
+## Task 14 empty
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| - | - | "" | "" | "" |
+
+## Reason or Problem
+
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
 
 ---
 
 ## Task 15
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| - | - | "" | "" | "" |
+
+## Reason or Problem
+
 Адаптер для подключения наших тем.
 Например в основном генераторе нам не нужно устанавливать тысячу тем. Скорее это долно работать в обратном направлении.
 Есть generator, есть тема, есть темплейт проекта который ты установил и там юзаешь.
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
 ---
 
 ## Task 16
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| - | - | "" | "" | "" |
+
+## Reason or Problem
+
 Тесты приводить в порядок. 
 - Есть централизация
 - есть улучшение в процессе работы
 - берем и дебажим
 
+## Proposal or Solution
 
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
 
 ---
 
-
 create a separated method that will generate a tree of components for content only case...
-
-
 
 ### create a custom tag that will skip our generator
 sometimes everything is not ideal and i want to put something, like comment, that must be skipped and not wrapped with some blocks.
@@ -567,6 +1216,12 @@ https://maizzle.com/docs/introduction
 
 ## Task 17: If I comment any of those cases i wouldnt get any warning or something in our [#1433](https://github.com/LLazyEmail/markdown-to-email/issues/1433)
 
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| If I comment any of those cases i wouldnt get any warning or something in our | If I comment any of those cases i wouldnt get any warning or something in our | "" | "" | "" |
+
+## Reason or Problem
+
 reactFull: () => generateReactFullTemplate(FULL_SOURCE),
 
 markdown-to-email/src/index.js
@@ -624,9 +1279,49 @@ here i totally agree with you. switch sucks.
 ok, let me move this part of our conversation into "improvements.md"
 document that I'm still working on.
 
+## Proposal or Solution
 
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
 
 ## Task 18: DDD [#1003](https://github.com/LLazyEmail/markdown-to-email/issues/1003)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| DDD | DDD | "" | "" | "" |
+
+## Reason or Problem
 
 https://medium.com/spotlight-on-javascript/domain-driven-design-for-javascript-developers-9fc3f681931a
 
@@ -634,7 +1329,41 @@ https://khalilstemmler.com/articles/domain-driven-design-intro/
 
 https://en.wikipedia.org/wiki/Domain-driven_design
 
+## Proposal or Solution
 
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
 
 ## Entity
 
@@ -681,15 +1410,59 @@ npm org
 
 ## Task 19: Mdx bundler [#1337](https://github.com/LLazyEmail/markdown-to-email/issues/1337)
 
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Mdx bundler | Mdx bundler | "" | "" | "" |
+
+## Reason or Problem
+
 [Mdx bundler](https://github.com/kentcdodds/mdx-bundler)
 
 https://github.com/hashicorp/next-mdx-remote
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
 
 ---
 
-
 ## Task 20: [Replace md](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/react/replace-markdown/replace-md.js)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Replace md | Replace md | "" | "" | "" |
+
+## Reason or Problem
 
 markdown-to-email/src/domain/react/replace-markdown/replace-md.js /
 
@@ -792,7 +1565,49 @@ export function replaceMarkdownReact(callback_name) {
 // }
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 21: [Index](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/callbacks-factory/index.js)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Index | Index | "" | "" | "" |
+
+## Reason or Problem
 
 markdown-to-email/src/domain/callbacks-factory/index.js /
 
@@ -873,7 +1688,49 @@ markdown-to-email/src/domain/callbacks-factory/index.js /
 // export default CallbackFactory;
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 22: Simple tasks for main branch [#403](https://github.com/LLazyEmail/markdown-to-email/issues/403)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Simple tasks for main branch | Simple tasks for main branch | "" | "" | "" |
+
+## Reason or Problem
 
 create 3 npm calls for generating full-template for 3 different cases(only plain version is necessary right now):
 
@@ -920,7 +1777,6 @@ __Над последним пунктом Вадим работает как п
 
 __atherdon__
 
-
 < create 3 npm calls for generating full-template for 3 different cases(only plain version is necessary right now
 
 сейчас у нас вызывается генератор с помощью одной команды.
@@ -932,15 +1788,10 @@ __atherdon__
 третья команда в package.json будет тоже генерировать темплейт, но в котором нету блоков от спонсора совсем. пример: https://www.noonifications.tech/w/FrS0z4j1mwy0iPFsU6N2Ig
 Сейчас, с помощью нашего генератора, такой layout не просто сделать. приходится потом руками удалять блоки
 
-
-
-
 ---
 
 Одним из плюсов модульной системы является более простая миграция функционала на typescript
 если искать фрилансера на фх является сложной задачей для MTE, то для работы в минимодулях это реально и будет проще/дешевле.
-
-
 
 ---
 
@@ -954,7 +1805,49 @@ Template Class Entity
 
 ---
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 23: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex [#67](https://github.com/LLazyEmail/nomoretogo_email_template/issues/67)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex | Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex | "" | "" | "" |
+
+## Reason or Problem
 
 https://github.com/LLazyEmail/markdown-regex/blob/main/readme.md
 
@@ -975,6 +1868,43 @@ https://github.com/fernandopasik/hello-web-components
 https://open-wc.org/docs/development/generator/
 
 https://open-wc.org/guides/developing-components/code-examples/
+
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 
 
 ## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
