@@ -12,6 +12,9 @@
 
 - https://github.com/LLazyEmail/markdown-to-email/pull/1452
 
+- https://github.com/LLazyEmail/markdown-to-email/pull/1458
+
+
 
 ### 2. Main repo bug 
 
