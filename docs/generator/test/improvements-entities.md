@@ -6,6 +6,48 @@
 
 Логика работы генератора простая - есть markdown файл с контентом и есть имейл темплейт в который наш генератор вставляет контент, оборачивая его в правильные блоки.
 
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+|  |  | "" | "" | "" |
+
+## Reason or Problem
+
+
+
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
 ## Template
 
 - отдельно мы передаем и init typography
