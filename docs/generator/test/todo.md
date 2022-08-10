@@ -24,6 +24,12 @@
 
 ## Task 1: Add more messages here, and finally replace messages in our methods [#1393](https://github.com/LLazyEmail/markdown-to-email/issues/1393)
 
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Add more messages here, and finally replace messages in our methods | messages | "" | "" | "" |
+
+## Reason or Problem
+
 ```
 import parse from '../../domain/parse';
 import { configureReplacer } from '../../domain/react';
@@ -43,7 +49,49 @@ const MESSAGE_REACT_FULL_TEMPLATE =
 const parseReactContent = (source) => parse(source, configureReplacer)
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 2: Check cases when content can have empty lists or blockquote [#1390](https://github.com/LLazyEmail/markdown-to-email/issues/1390)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Check cases when content can have empty lists or blockquote | empty lists or blockquote content | "" | "" | "" |
+
+## Reason or Problem
 
 ```
 
@@ -76,7 +124,49 @@ function configureReplacer(state, isFull) {
 }
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 3: Move to domain error-handle [#1231](https://github.com/LLazyEmail/markdown-to-email/issues/1231)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Move to domain error-handl | error-handle | "" | "" | "" |
+
+## Reason or Problem
 
 ```
 
@@ -136,7 +226,49 @@ function WR3_generateNewString(config) {
 
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 4: This can be moved into a separate method [#1149](https://github.com/LLazyEmail/markdown-to-email/issues/1149)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| This can be moved into a separate method | a separate method | "" | "" | "" |
+
+## Reason or Problem
 
 Problably at some point we'll have only one replacer method, but at this point we cant have it, so we better to optimize things
 
@@ -161,7 +293,49 @@ const replaceHeader = (config) => {
 
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 5: Connect messages to their sources [#1144](https://github.com/LLazyEmail/markdown-to-email/issues/1144)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Connect messages to their sources | Connect messages to their sources | "" | "" | "" |
+
+## Reason or Problem
 
 Eslint-disable-next-line no-undef
 
@@ -184,10 +358,51 @@ export const CONST_FILE_NOT_WRITTEN = 'file not written';
 
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 6: We need make it work [#1020](https://github.com/LLazyEmail/markdown-to-email/issues/1020)
 
-```
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| We need make it work | We need make it work | "" | "" | "" |
 
+## Reason or Problem
+
+```
 const ERROR_REGEX_CONSTANT = (value) => `something wrong with RegEx constant ${value}`;
 const ERROR_REPLACER_FUNCTION = (value) =>  `something wrong with replacer function ${value}`;
 
@@ -229,7 +444,49 @@ function objectBuilder(constant, replacer, literal = false){
 }
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 7: Later we can get rid of it completely [#989](https://github.com/LLazyEmail/markdown-to-email/issues/989)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Later we can get rid of it completely | Later we can get rid of it completely | "" | "" | "" |
+
+## Reason or Problem
 
 ```
 
@@ -381,7 +638,49 @@ function EmployeeDetails() {
 var newEmployee = EmployeeDetails()
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 8: Add typeof for checking replacer as a function [#959](https://github.com/LLazyEmail/markdown-to-email/issues/959)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Add typeof for checking replacer as a function | checking replacer as a function | "" | "" | "" |
+
+## Reason or Problem
 
 ```
 
@@ -446,7 +745,49 @@ export default {
 } 
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 9: Looks interesting to implement [#1368](https://github.com/LLazyEmail/markdown-to-email/issues/1368)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Looks interesting to implement | Looks interesting to implement | "" | "" | "" |
+
+## Reason or Problem
 
 ```
 class MissingFieldsError extends Error {
@@ -488,7 +829,49 @@ const ERROR_REGEX_CONSTANT = (value) =>
 
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 10: Should we move away checks [#1366](https://github.com/LLazyEmail/markdown-to-email/issues/1366)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Should we move away checks | Should we move away checks | "" | "" | "" |
+
+## Reason or Problem
 
 ```
 
@@ -557,7 +940,49 @@ function verification(warnings, content = false) {
 export { verification, checkWarnings, checkHtml, newLine };
 ```
 
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+----
+
 ## Task 11: Migration of small components [#197](https://github.com/LLazyEmail/nomoretogo_email_template/issues/197)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Migration of small components | Migration of small components | "" | "" | "" |
+
+## Reason or Problem
 
 В typography у нас сейчас мало компонентов. А Вадим хочет попробывать работу этого модуля и подклюить его к основному генератору.
 
@@ -594,6 +1019,42 @@ Replacer.emptyOl();
 Replacer.emptyBlockquote();
 
 Replacer.separator();
+
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
+
+
 
 
 ## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
