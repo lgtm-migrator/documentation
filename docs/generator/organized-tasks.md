@@ -73,10 +73,6 @@ https://app.asana.com/0/1201360899207493/1202700551974378
 > скажи что бы ты хотел чтобы Светлана перенесла?
 
 
-### 4. Can you also fix documentation deploy error? I feel it's very simple, but I dont have time to make it work.
-https://github.com/LLazyEmail/documentation/actions
-
-
 ### Вопрос о найме фрилансера
 
 Детальное описание: https://github.com/LLazyEmail/documentation/blob/main/docs/generator/test/improvements-entities.md
