@@ -106,9 +106,9 @@ Errors - сейчас неудобно, пока код не отлажен во
 
 В одном месте сейчас у нас вытаскиваются методы, отвечающие за typography
 
-<example1 + link>
+```<example1 + link>```
 
-<example2 + link>
+```<example2 + link>```
 
 
 
