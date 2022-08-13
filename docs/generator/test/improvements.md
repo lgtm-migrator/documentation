@@ -28,27 +28,23 @@
 
 - [Task 12](#task-12)
 
-- [Task 13](#task-13)
+- [Task 13 empty](#task-13-empty)
 
-- [Task 14 empty](#task-14-empty)
+- [Task 14](#task-14)
 
 - [Task 15](#task-15)
 
-- [Task 16](#task-16)
+- [Task 16: If I comment any of those cases i wouldnt get any warning or something in our #1433](#task-16-if-i-comment-any-of-those-cases-i-wouldnt-get-any-warning-or-something-in-our-1433)
 
-- [Task 17: If I comment any of those cases i wouldnt get any warning or something in our #1433](#task-17-if-i-comment-any-of-those-cases-i-wouldnt-get-any-warning-or-something-in-our-1433)
+- [Task 17: DDD #1003](#task-17-ddd-1003)
 
-- [Task 18: DDD #1003](#task-18-ddd-1003)
+- [Task 18: Replace md](#task-18-replace-md)
 
-- [Task 19: Mdx bundler #1337](#task-19-mdx-bundler-1337)
+- [Task 19: Index](#task-19-index)
 
-- [Task 20: Replace md](#task-20-replace-md)
+- [Task 20: Simple tasks for main branch #403](#task-20-simple-tasks-for-main-branch-403)
 
-- [Task 21: Index](#task-21-index)
-
-- [Task 22: Simple tasks for main branch #403](#task-22-simple-tasks-for-main-branch-403)
-
-- [Task 23: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex #67](#task-23-подумать-о-простых-компонентах-которые-делаются-в-typography-и-их-связи-с-markdown-regex-67)
+- [Task 21: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex #67](#task-21-подумать-о-простых-компонентах-которые-делаются-в-typography-и-их-связи-с-markdown-regex-67)
 
 
 # Husky and eslint as actions [#933](https://github.com/LLazyEmail/markdown-to-email/issues/933)
@@ -815,53 +811,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Reason or Problem
 
-Почему я бы хотел чтобы мы быстрее разобрали mdx. Есть ощущение(которому больше чем год) - что возможно будет заменить работу нашего replacer`a.
-но нужно подумать.
-
-## Proposal or Solution
-
-A clear and concise description of what you want to happen.
-
-### Design
-
-UMLs or describe entities involved, their behaviors and relationships.
-
-### Sample usage
-
-Clear set of instructions
-
-## Alternatives solutions
-
-A clear and concise description of any alternative solutions or features you've considered.
-
-## Stakeholders and Dependent software components
-
-## Testing plan
-
-## Acceptance scenarios
-
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
-
-----
-
-## Task 12
-
-| Name   | About  | Title  | Labels  | Assignees  |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| - | - | "" | "" | "" |
-
-## Reason or Problem
-
 почему работа с подмодулями мне нравится. Потому что я легко могу раскидать модули на разные репозитории, настроить простые билды и легко дебажить и фиксить код.
 делать коммиты и небоятся что все зафейлится.
 
@@ -903,7 +852,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ----
 
-## Task 13
+## Task 12
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -950,7 +899,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ----
 
-## Task 14 empty
+## Task 13 empty
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -996,7 +945,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ---
 
-## Task 15
+## Task 14
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -1044,7 +993,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ---
 
-## Task 16
+## Task 15
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -1214,7 +1163,7 @@ https://maizzle.com/docs/introduction
 + https://maizzle.com/docs/introduction#byohtml
 ----
 
-## Task 17: If I comment any of those cases i wouldnt get any warning or something in our [#1433](https://github.com/LLazyEmail/markdown-to-email/issues/1433)
+## Task 16: If I comment any of those cases i wouldnt get any warning or something in our [#1433](https://github.com/LLazyEmail/markdown-to-email/issues/1433)
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -1315,7 +1264,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ----
 
-## Task 18: DDD [#1003](https://github.com/LLazyEmail/markdown-to-email/issues/1003)
+## Task 17: DDD [#1003](https://github.com/LLazyEmail/markdown-to-email/issues/1003)
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -1408,55 +1357,7 @@ npm org
 
 ---
 
-## Task 19: Mdx bundler [#1337](https://github.com/LLazyEmail/markdown-to-email/issues/1337)
-
-| Name   | About  | Title  | Labels  | Assignees  |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| Mdx bundler | Mdx bundler | "" | "" | "" |
-
-## Reason or Problem
-
-[Mdx bundler](https://github.com/kentcdodds/mdx-bundler)
-
-https://github.com/hashicorp/next-mdx-remote
-
-## Proposal or Solution
-
-A clear and concise description of what you want to happen.
-
-### Design
-
-UMLs or describe entities involved, their behaviors and relationships.
-
-### Sample usage
-
-Clear set of instructions
-
-## Alternatives solutions
-
-A clear and concise description of any alternative solutions or features you've considered.
-
-## Stakeholders and Dependent software components
-
-## Testing plan
-
-## Acceptance scenarios
-
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
-
----
-
-## Task 20: [Replace md](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/react/replace-markdown/replace-md.js)
+## Task 18: [Replace md](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/react/replace-markdown/replace-md.js)
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -1601,7 +1502,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ----
 
-## Task 21: [Index](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/callbacks-factory/index.js)
+## Task 19: [Index](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/callbacks-factory/index.js)
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -1724,7 +1625,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ----
 
-## Task 22: Simple tasks for main branch [#403](https://github.com/LLazyEmail/markdown-to-email/issues/403)
+## Task 20: Simple tasks for main branch [#403](https://github.com/LLazyEmail/markdown-to-email/issues/403)
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -1841,7 +1742,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ----
 
-## Task 23: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex [#67](https://github.com/LLazyEmail/nomoretogo_email_template/issues/67)
+## Task 21: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex [#67](https://github.com/LLazyEmail/nomoretogo_email_template/issues/67)
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
