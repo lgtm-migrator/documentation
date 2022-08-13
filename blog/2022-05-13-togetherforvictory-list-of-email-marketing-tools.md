@@ -4,8 +4,8 @@ title: List of Email Marketing tools, Together4Victory
 authors:
   name: Arthur Tkachenko
   title: Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
+  url: https://github.com/atherdon
+  image_url: https://github.com/atherdon.png
 tags: [hola, docusaurus]
 ---
 
