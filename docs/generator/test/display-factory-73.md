@@ -1,4 +1,6 @@
-# [Sub task] updated Display Factory в trying-lit #1349
+# [Sub task] updated Display Factory - HN template
+
+trying-lit #1349
 
 сейчас в trying-lit
 
