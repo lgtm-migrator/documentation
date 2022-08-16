@@ -47,7 +47,8 @@
 - [Task 21: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex #67](#task-21-подумать-о-простых-компонентах-которые-делаются-в-typography-и-их-связи-с-markdown-regex-67)
 
 
-# Husky and eslint as actions [#933](https://github.com/LLazyEmail/markdown-to-email/issues/933)
+# Husky and eslint as actions
+Task [#933](https://github.com/LLazyEmail/markdown-to-email/issues/933)
 
 ## Task 1: Apply husky git hook to specific branch only #186
 
