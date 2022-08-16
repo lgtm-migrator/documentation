@@ -57,7 +57,11 @@
 
 ## Reason or Problem
 
-link: 
+
+
+## Proposal or Solution
+
+Links: 
 
 - https://github.com/typicode/husky/issues/186
 
@@ -70,10 +74,6 @@ link:
 - https://npm.io/package/validate-branch-name
 
 - https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/
-
-## Proposal or Solution
-
-A clear and concise description of what you want to happen.
 
 ### Design
 
@@ -93,19 +93,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
 
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
-
-----
 
 ## Husky and eslint as actions #9333
 
@@ -154,19 +142,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -198,21 +174,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Stakeholders and Dependent software components
 
-## Testing plan
 
-## Acceptance scenarios
-
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -290,19 +252,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -380,19 +330,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -506,17 +444,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
 
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -577,17 +505,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
 
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -621,19 +539,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -739,17 +645,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
 
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -789,17 +685,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -836,19 +721,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -883,19 +756,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -929,19 +790,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 
@@ -977,19 +826,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 
@@ -1026,19 +863,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ---
 
@@ -1085,61 +910,63 @@ query
 
 
 ### remark 
+
 Remark plugins to try later later later
-https://github.com/remarkjs/remark-html
+- https://github.com/remarkjs/remark-html
 
-https://github.com/remarkjs/remark-breaks
+- https://github.com/remarkjs/remark-breaks
 
-https://github.com/vercel/remark-capitalize
+- https://github.com/vercel/remark-capitalize
 
-https://github.com/laat/remark-first-heading
+- https://github.com/laat/remark-first-heading
 
-https://github.com/remarkjs/remark-images
+- https://github.com/remarkjs/remark-images
 
-https://github.com/remarkjs/remark-lint
+- https://github.com/remarkjs/remark-lint
 
-https://github.com/remarkjs/remark-inline-links
+- https://github.com/remarkjs/remark-inline-links
 
-https://github.com/dimerapp/remark-macro
+- https://github.com/dimerapp/remark-macro
 
-https://github.com/remarkjs/remark-normalize-headings
+- https://github.com/remarkjs/remark-normalize-headings
 
-https://github.com/remarkjs/remark-rehype
+- https://github.com/remarkjs/remark-rehype
 
-https://github.com/sergioramos/remark-hint
+- https://github.com/sergioramos/remark-hint
 
-https://github.com/markedjs/marked
+- https://github.com/markedjs/marked
 
-https://github.com/mdx-js/mdx
+- https://github.com/mdx-js/mdx
 
-https://github.com/LLazyEmail/markdown-to-email/discussions/751
+- https://github.com/LLazyEmail/markdown-to-email/discussions/751
 
 ----
 
 
-https://www.npmjs.com/package//sanitize-html
+- https://www.npmjs.com/package//sanitize-html
 
-https://www.npmjs.com/package/html-element-attributes
+- https://www.npmjs.com/package/html-element-attributes
 
-https://www.npmjs.com/package/html-tag
+- https://www.npmjs.com/package/html-tag
 
-https://github.com/breakdance/breakdance
+- https://github.com/breakdance/breakdance
 
-https://github.com/here-be/snapdragon
+- https://github.com/here-be/snapdragon
 
-https://github.com/wooorm/html-element-attributes
+- https://github.com/wooorm/html-element-attributes
 
-https://www.npmjs.com/package/element-mold
+- https://www.npmjs.com/package/element-mold
 
 -----
 
-https://www.npmjs.com/package/yargs
+- https://www.npmjs.com/package/yargs
 
-https://www.npmjs.com/package/commander
+- https://www.npmjs.com/package/commander
 
-https://tomassetti.me/parsing-in-javascript/ https://github.com/aaditmshah/lexer https://github.com/zaach/jison
+- https://tomassetti.me/parsing-in-javascript/ https://github.com/aaditmshah/lexer https://github.com/zaach/jison
 
 ---
+
 - add html linter
 because it's hard to understand if everything is good or not
 
@@ -1161,6 +988,7 @@ Maizzle
 
 https://maizzle.com/docs/introduction
 + https://maizzle.com/docs/introduction#byohtml
+
 ----
 
 ## Task 16: If I comment any of those cases i wouldnt get any warning or something in our [#1433](https://github.com/LLazyEmail/markdown-to-email/issues/1433)
@@ -1248,19 +1076,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -1272,11 +1088,11 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Reason or Problem
 
-https://medium.com/spotlight-on-javascript/domain-driven-design-for-javascript-developers-9fc3f681931a
+- https://medium.com/spotlight-on-javascript/domain-driven-design-for-javascript-developers-9fc3f681931a
 
-https://khalilstemmler.com/articles/domain-driven-design-intro/
+- https://khalilstemmler.com/articles/domain-driven-design-intro/
 
-https://en.wikipedia.org/wiki/Domain-driven_design
+- https://en.wikipedia.org/wiki/Domain-driven_design
 
 ## Proposal or Solution
 
@@ -1298,19 +1114,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -1486,19 +1290,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -1609,23 +1401,13 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
-## Task 20: Simple tasks for main branch [#403](https://github.com/LLazyEmail/markdown-to-email/issues/403)
+## Task 20: Simple tasks for main branch
+
+### [#403](https://github.com/LLazyEmail/markdown-to-email/issues/403)
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -1726,19 +1508,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
@@ -1750,25 +1520,25 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Reason or Problem
 
-https://github.com/LLazyEmail/markdown-regex/blob/main/readme.md
+- https://github.com/LLazyEmail/markdown-regex/blob/main/readme.md
 
-https://github.com/LLazyEmail/nomoretogo_email_template/tree/main/components/typography/src/components
+- https://github.com/LLazyEmail/nomoretogo_email_template/tree/main/components/typography/src/components
 
-https://github.com/LLazyEmail/_trying_simple_tags
+- https://github.com/LLazyEmail/_trying_simple_tags
 
-https://github.com/lit/lit/tree/main/packages/lit-starter-js
+- https://github.com/lit/lit/tree/main/packages/lit-starter-js
 
-https://codelabs.developers.google.com/codelabs/lit-brick-viewer#6
+- https://codelabs.developers.google.com/codelabs/lit-brick-viewer#6
 
-https://codelabs.developers.google.com/codelabs/the-lit-path#0
+- https://codelabs.developers.google.com/codelabs/the-lit-path#0
 
-https://open-wc.org/codelabs/basics/lit-html.html#0
+- https://open-wc.org/codelabs/basics/lit-html.html#0
 
-https://github.com/fernandopasik/hello-web-components
+- https://github.com/fernandopasik/hello-web-components
 
-https://open-wc.org/docs/development/generator/
+- https://open-wc.org/docs/development/generator/
 
-https://open-wc.org/guides/developing-components/code-examples/
+- https://open-wc.org/guides/developing-components/code-examples/
 
 ## Proposal or Solution
 
@@ -1790,19 +1560,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
 
-## Other Design tenets
-
-### Performance
-
-### Security
-
-### Configuration
-
-### Maintainability (extensibility points in the design)
-
-### Logging
 
 ----
 
