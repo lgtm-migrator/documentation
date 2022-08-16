@@ -1295,7 +1295,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ----
 
-## Task 19: [Index](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/callbacks-factory/index.js)
+## Task 19: [Callbacks Factory Index](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/callbacks-factory/index.js)
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -1416,6 +1416,8 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Reason or Problem
 
+
+
 create 3 npm calls for generating full-template for 3 different cases(only plain version is necessary right now):
 
 - full-template with advertising
@@ -1426,19 +1428,27 @@ https://github.com/atherdon/markdown-to-email/blob/main/package.json#L8
 
 ---
 
+
+
 maybe we should do a custom markdown tag "[separator]" that will be replaced with `***`?
 [#355](https://github.com/LLazyEmail/markdown-to-email/issues/355)
 
 ---
+
+
 
 Can we add some warnings for preview text, for advertising blocks too?
 [#355](https://github.com/LLazyEmail/markdown-to-email/issues/355)
 
 ---
 
+
+
 can we clean up our constants package? [#356](https://github.com/LLazyEmail/markdown-to-email/issues/356)
 
 ---
+
+
 
 switch from default RegExp that we have for links and create custom_link constant.
 
@@ -1451,18 +1461,6 @@ __coder-do:__
 
 "_create 3 npm calls for generating full-template for 3 different cases(only plain version is necessary right now):_" - Этот момент не оч понятен
 
-"_maybe we should do a custom markdown tag "[separator]" that will be replaced with `***`?_" - Это уже готово
-
-"_Can we add some warnings for preview text, for advertising blocks too?_" - Для previwText есть warning - когда парсим фулл контент в консоли выводится красным что previwText нету
-
-"_can we clean up our constants package? [#356](https://github.com/LLazyEmail/markdown-to-email/issues/356)_" - В этом не очень уверен
-
-__Над последним пунктом Вадим работает как помню__
-
-__atherdon__
-
-< create 3 npm calls for generating full-template for 3 different cases(only plain version is necessary right now
-
 сейчас у нас вызывается генератор с помощью одной команды.
 и генерирует он темплейт только в том случае, когда есть вся информация сразу. - это первая команда.
 
@@ -1472,22 +1470,14 @@ __atherdon__
 третья команда в package.json будет тоже генерировать темплейт, но в котором нету блоков от спонсора совсем. пример: https://www.noonifications.tech/w/FrS0z4j1mwy0iPFsU6N2Ig
 Сейчас, с помощью нашего генератора, такой layout не просто сделать. приходится потом руками удалять блоки
 
----
 
-Одним из плюсов модульной системы является более простая миграция функционала на typescript
-если искать фрилансера на фх является сложной задачей для MTE, то для работы в минимодулях это реально и будет проще/дешевле.
+"_Can we add some warnings for preview text, for advertising blocks too?_" - Для previwText есть warning - когда парсим фулл контент в консоли выводится красным что previwText нету
 
----
+"_can we clean up our constants package? [#356](https://github.com/LLazyEmail/markdown-to-email/issues/356)_" - В этом не очень уверен
 
-Template Class Entity
-
-Как не забыть про то, что часть objectBuilders не создана.
-
-когда эта часть объектов сделана - это было удобно дебажить.
-
-придумай тогда метод, чтобы можно было быстро посмотреть содержимое элемента твоего map.
 
 ---
+
 
 ## Proposal or Solution
 
@@ -1512,6 +1502,24 @@ A clear and concise description of any alternative solutions or features you've 
 
 
 ----
+
+
+Одним из плюсов модульной системы является более простая миграция функционала на typescript
+если искать фрилансера на фх является сложной задачей для MTE, то для работы в минимодулях это реально и будет проще/дешевле.
+
+---
+
+Template Class Entity
+
+Как не забыть про то, что часть objectBuilders не создана.
+
+когда эта часть объектов сделана - это было удобно дебажить.
+
+придумай тогда метод, чтобы можно было быстро посмотреть содержимое элемента твоего map.
+
+---
+
+
 
 ## Task 21: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex [#67](https://github.com/LLazyEmail/nomoretogo_email_template/issues/67)
 
