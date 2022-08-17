@@ -144,4 +144,4 @@ Newsletter2go [https://docs.newsletter2go.com/](https://docs.newsletter2go.com/)
 I'll continue to extend this list later, the source will be located in this repository: https://github.com/LLazyEmail/awesome-email-marketing.
 
 
-## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+#### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
