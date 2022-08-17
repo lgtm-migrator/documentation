@@ -6,4 +6,4 @@
 - [Newsletter2go](https://docs.newsletter2go.com/)
 
 
-## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+#### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
