@@ -38,4 +38,4 @@ tags: [hola, docusaurus]
 * [Risks and rewards of a paid newsletter ](https://www.getrevue.co/profile/the_week_in_newsletters/issues/risks-and-rewards-of-a-paid-newsletter-280186)
 
 
-## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+#### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
