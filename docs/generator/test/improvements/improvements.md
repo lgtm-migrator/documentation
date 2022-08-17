@@ -12,11 +12,8 @@
 
 - [Task 5: I propose to move inner things of this method into Replace runConfigure #1166](#task-5-i-propose-to-move-inner-things-of-this-method-into-replace-runconfigure-1166)
 
-- [Task 6: Replace this layout with plain v3 layout #1165](#task-6-replace-this-layout-with-plain-v3-layout-1165)
-
 - [Task 7: Enable const messages #1110](#task-7-enable-const-messages-1110)
 
-- [Task 8: Vadim wants to add issue templates](#task-8-vadim-wants-to-add-issue-templates)
 
 - [Task 9: Add here error handlers from domain error handle #1021](#task-9-add-here-error-handlers-from-domain-error-handle-1021)
 
@@ -330,118 +327,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 
 
-----
-
-## Task 6: Replace this layout with plain v3 layout #1165
-
-| Name   | About  | Title  | Labels  | Assignees  |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| Replace this layout with plain v3 layout | Replace this layout with plain v3 layout | "" | "" | "" |
-
-## Reason or Problem
-
-markdown-to-email/src/domain/replace-markdown/pre-replace-objects.js
-```
-Line 54 in e0568c2
-
- // TODO replace this layout with plain v3 layout 
- 
-
-import _ from 'lodash';
-
-import {
-  _strong,
-  _link,
-  _blockquote,
-  _meme,
-  _image,
-  _paragraphWrapper,
-  _sponsorship,
-  _br,
-  _separator,
-  //
-  _previewText,
-} from '../../callbacks/callbacksHtml/index';
-
-import {
-  REGEXP_HEADER,
-  REGEXP_IMAGE,
-  REGEXP_EM,
-  REGEXP_SPONSORSHIP,
-  REGEXP_SEPARATOR,
-} from '../../constants/index';
-
-import { REGEXP_SUB_LISTS } from '../regular-expressions/';
-
-// import misc from '../templates/OuterTemplate/layouts/misc';
-
-// TODO replace this layout with plain v3 layout
-import body from '../../templates/PlainJSOuterTemplate/layouts/body';
-const { sponsorLiteral, previewTextLiteral } = body;
-
-import objectBuilder from '../md/object-builder';
-
-
-// TODO add here error handlers from domain/error-handle.
-// removing them from this file
-
-import {
-  headingLiteral,
-  titleLiteral,
-  paragraphLiteral,
-  strongLiteral,
-  subtitleLiteral,
-  separatorLiteral,
-} from '../email-prototypes/plainjs/typography/index';
-
-const strong = objectBuilder(REGEXP_STRONG, _strong, strongLiteral);
-// console.log(strong);
-
-
-const link = objectBuilder(REGEXP_LINK, _link, linkLiteral);
-
-const listItem = objectBuilder(
-  REGEXP_SUB_LISTS, 
-  getParsedSubList, 
-  listItemLiteral
-);
-
-// this object used only as a stupid way to add a parch for different cases of lists
-// first two params never used
-const list = objectBuilder(REGEXP_UL_LIST, getParsedSubList, listLiteral);
-
-//  memeLiteral,
-const memes = objectBuilder(REGEXP_MEM, _meme, false);
-
-export default {
-  strong,
-  link,
- 
-};
-```
-
-## Proposal or Solution
-
-A clear and concise description of what you want to happen.
-
-### Design
-
-UMLs or describe entities involved, their behaviors and relationships.
-
-### Sample usage
-
-Clear set of instructions
-
-## Alternatives solutions
-
-A clear and concise description of any alternative solutions or features you've considered.
-
-## Stakeholders and Dependent software components
-
-## Testing plan
-
-## Acceptance scenarios
-
 
 
 ----
@@ -502,40 +387,6 @@ A clear and concise description of any alternative solutions or features you've 
 ## Testing plan
 
 ## Acceptance scenarios
-
-
-
-----
-
-## Task 8: Vadim wants to add issue templates
-
-| Name   | About  | Title  | Labels  | Assignees  |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| Vadim wants to add issue templates | Vadim wants to add issue templates | "" | "" | "" |
-
-## Reason or Problem
-
-from one of our last chats
-
-## Proposal or Solution
-
-A clear and concise description of what you want to happen.
-
-### Design
-
-UMLs or describe entities involved, their behaviors and relationships.
-
-### Sample usage
-
-Clear set of instructions
-
-## Alternatives solutions
-
-A clear and concise description of any alternative solutions or features you've considered.
-
-## Stakeholders and Dependent software components
-
-## Testing plan
 
 
 
