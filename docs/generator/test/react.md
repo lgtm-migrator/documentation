@@ -37,7 +37,6 @@ Eexplore mdx stuff deeper
 - https://egghead.io/lessons/react-use-mdxprovider-to-control-the-rendering-of-markdown-elements-with-gatsby-mdx
 - https://mdxjs.com/guides/wrapper-customization/
 
-https://app.asana.com/0/1201360899207493/1201361028365043
 
 ## Proposal or Solution
 
@@ -57,13 +56,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Stakeholders and Dependent software components
 
-## Testing plan
-
-## Acceptance scenarios
-
-## Other Design tenets
-
-### Performance
 
 
 ---
@@ -100,11 +92,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
-
-## Other Design tenets
-
-### Performance
 
 
 ---
@@ -149,11 +136,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
-
-## Other Design tenets
-
-### Performance
 
 
 ---
@@ -192,11 +174,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Testing plan
 
-## Acceptance scenarios
-
-## Other Design tenets
-
-### Performance
 
 
 ---
@@ -208,7 +185,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Reason or Problem
 
-https://app.asana.com/0/1201360899207493/1201391597060836
+https://github.com/LLazyEmail/react-email-table
 
 ## Proposal or Solution
 
@@ -238,7 +215,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 
 ---
-# Task 7: Basic React components working without a lotof efforts 
+# Task 7: Basic React components working without a lot of efforts 
 
 | Name | About | Title | Labels | Assignees |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | 
@@ -246,7 +223,12 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Reason or Problem
 
-https://app.asana.com/0/1201360899207493/1201391597060794
+**Table**
+
+**Misc**
+
+**Simple templates without complex styles in head**
+
 
 ## Proposal or Solution
 
@@ -275,11 +257,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 ----
 
-## Table
 
-## Misc
-
-## Simple templates without complex styles in head
 
 ---
 # Task 8: Remark research for Markdown to Html generator [#754](https://github.com/LLazyEmail/markdown-to-email/issues/754)
