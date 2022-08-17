@@ -26,9 +26,6 @@
 
 - [Task 11](#task-11)
 
-- [Task 12](#task-12)
-
-- [Task 13 empty](#task-13-empty)
 
 - [Task 14](#task-14)
 
@@ -714,86 +711,10 @@ UMLs or describe entities involved, their behaviors and relationships.
 
 Clear set of instructions
 
-## Alternatives solutions
-
-A clear and concise description of any alternative solutions or features you've considered.
-
-## Stakeholders and Dependent software components
-
-## Testing plan
-
 
 
 ----
 
-## Task 12
-
-| Name   | About  | Title  | Labels  | Assignees  |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| - | - | "" | "" | "" |
-
-## Reason or Problem
-
-Почему хочется использовать реальный React components для быстрого запила templates.
-таким макаром мы можем наконецто уйти от странных "темлпейтов" и делать блоки фронтенда с помощью тех средств, которые для этого предпочтительнее и реаль работают лучше.
-
-## Proposal or Solution
-
-A clear and concise description of what you want to happen.
-
-### Design
-
-UMLs or describe entities involved, their behaviors and relationships.
-
-### Sample usage
-
-Clear set of instructions
-
-## Alternatives solutions
-
-A clear and concise description of any alternative solutions or features you've considered.
-
-## Stakeholders and Dependent software components
-
-## Testing plan
-
-
-
-----
-
-## Task 13 empty
-
-| Name   | About  | Title  | Labels  | Assignees  |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| - | - | "" | "" | "" |
-
-## Reason or Problem
-
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
-## Proposal or Solution
-
-A clear and concise description of what you want to happen.
-
-### Design
-
-UMLs or describe entities involved, their behaviors and relationships.
-
-### Sample usage
-
-Clear set of instructions
-
-## Alternatives solutions
-
-A clear and concise description of any alternative solutions or features you've considered.
-
-## Stakeholders and Dependent software components
-
-## Testing plan
-
-
-
----
 
 ## Task 14
 
@@ -807,6 +728,9 @@ A clear and concise description of any alternative solutions or features you've 
 Например в основном генераторе нам не нужно устанавливать тысячу тем. Скорее это долно работать в обратном направлении.
 Есть generator, есть тема, есть темплейт проекта который ты установил и там юзаешь.
 
+https://github.com/LLazyEmail/documentation/blob/main/docs/generator/test/improvements-entities.md
+
+
 ## Proposal or Solution
 
 A clear and concise description of what you want to happen.
@@ -814,18 +738,6 @@ A clear and concise description of what you want to happen.
 ### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
-
-### Sample usage
-
-Clear set of instructions
-
-## Alternatives solutions
-
-A clear and concise description of any alternative solutions or features you've considered.
-
-## Stakeholders and Dependent software components
-
-## Testing plan
 
 
 
@@ -1417,7 +1329,7 @@ A clear and concise description of any alternative solutions or features you've 
 ## Reason or Problem
 
 
-
+### Part one
 create 3 npm calls for generating full-template for 3 different cases(only plain version is necessary right now):
 
 - full-template with advertising
@@ -1428,14 +1340,14 @@ https://github.com/atherdon/markdown-to-email/blob/main/package.json#L8
 
 ---
 
-
+### Part two
 
 maybe we should do a custom markdown tag "[separator]" that will be replaced with `***`?
 [#355](https://github.com/LLazyEmail/markdown-to-email/issues/355)
 
 ---
 
-
+### Part three
 
 Can we add some warnings for preview text, for advertising blocks too?
 [#355](https://github.com/LLazyEmail/markdown-to-email/issues/355)
@@ -1443,13 +1355,13 @@ Can we add some warnings for preview text, for advertising blocks too?
 ---
 
 
-
+### Part four
 can we clean up our constants package? [#356](https://github.com/LLazyEmail/markdown-to-email/issues/356)
 
 ---
 
 
-
+### Part five
 switch from default RegExp that we have for links and create custom_link constant.
 
 our goal will be to add URL param like `?ref=noonifications.tech` but let's use some working module, aka extension of `path` module.
@@ -1457,9 +1369,11 @@ because there can be tons of stupid issues that I want to skip
 
 https://github.com/sindresorhus/query-string#stringifyobject-options
 
-__coder-do:__
+### Part six
 
-"_create 3 npm calls for generating full-template for 3 different cases(only plain version is necessary right now):_" - Этот момент не оч понятен
+
+
+**"create 3 npm calls for generating full-template for 3 different cases(only plain version is necessary right now)"** - Этот момент не оч понятен
 
 сейчас у нас вызывается генератор с помощью одной команды.
 и генерирует он темплейт только в том случае, когда есть вся информация сразу. - это первая команда.
@@ -1471,9 +1385,10 @@ __coder-do:__
 Сейчас, с помощью нашего генератора, такой layout не просто сделать. приходится потом руками удалять блоки
 
 
-"_Can we add some warnings for preview text, for advertising blocks too?_" - Для previwText есть warning - когда парсим фулл контент в консоли выводится красным что previwText нету
+**"Can we add some warnings for preview text, for advertising blocks too?"**
+ Для previwText есть warning - когда парсим фулл контент в консоли выводится красным что previwText нету
 
-"_can we clean up our constants package? [#356](https://github.com/LLazyEmail/markdown-to-email/issues/356)_" - В этом не очень уверен
+**can we clean up our constants package? [#356](https://github.com/LLazyEmail/markdown-to-email/issues/356)** - В этом не очень уверен
 
 
 ---
@@ -1521,7 +1436,8 @@ Template Class Entity
 
 
 
-## Task 21: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex [#67](https://github.com/LLazyEmail/nomoretogo_email_template/issues/67)
+## Task 21: Подумать о простых компонентах, которые делаются в typography и их связи с markdown-regex 
+[#67](https://github.com/LLazyEmail/nomoretogo_email_template/issues/67)
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -1575,4 +1491,4 @@ A clear and concise description of any alternative solutions or features you've 
 
 
 
-## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
