@@ -159,4 +159,4 @@ Main Page layout on some popular newsletter for foodies.
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mro9ynhanbahj598uau2.png)
  
 
-## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+#### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
