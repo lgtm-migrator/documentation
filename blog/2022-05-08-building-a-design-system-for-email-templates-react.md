@@ -147,4 +147,4 @@ Building Email Tool in Public:
 - https://hackernoon.com/open-sourcing-regular-expressions-for-markdown-syntax-module
 
 
-## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+#### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
