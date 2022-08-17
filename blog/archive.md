@@ -14,4 +14,4 @@
 * [https://hackernoon.com/cool-resources-for-sending-emails](https://hackernoon.com/cool-resources-for-sending-emails)
 
 
-## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+#### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
