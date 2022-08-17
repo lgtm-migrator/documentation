@@ -755,7 +755,8 @@ https://maizzle.com/docs/introduction
 
 ----
 
-## Task 16: If I comment any of those cases i wouldnt get any warning or something in our [#1433](https://github.com/LLazyEmail/markdown-to-email/issues/1433)
+## Task 16: If I comment any of those cases i wouldnt get any warning or something in our
+ [#1433](https://github.com/LLazyEmail/markdown-to-email/issues/1433)
 
 | Name   | About  | Title  | Labels  | Assignees  |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
