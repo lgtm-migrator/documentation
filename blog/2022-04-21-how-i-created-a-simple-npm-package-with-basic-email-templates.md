@@ -93,4 +93,4 @@ tags: [hola, docusaurus]
 * [https://automizy.com/blog/drip-email-campaign-examples/](https://automizy.com/blog/drip-email-campaign-examples/)
 
 
-## [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
+#### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
