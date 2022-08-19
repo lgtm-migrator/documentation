@@ -49,3 +49,13 @@ We have a 2nd branch, packed with react stuff, now it's separated but needs inpu
 
 A generator is using the outer template and inner components(Interior) separately.  
 This is why we split things that way. While the generator is creating content dynamically, the outer template is static.
+
+![1](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/interior-components.jpg)
+
+![2](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/miscellaneous.jpg)
+
+![3](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/outer-template.jpg0
+
+![4](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/templates-in-progress.jpg)
+
+![5](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/typography.jpg)
