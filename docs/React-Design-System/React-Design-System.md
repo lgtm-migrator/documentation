@@ -20,6 +20,12 @@
 
 - https://github.com/LLazyEmail/remix-ecommerce-react-email-template
 
+- https://github.com/LLazyEmail/remix-google-billing-email-template
+
+- https://github.com/LLazyEmail/remix-amazon-billing-email-template
+
+- https://github.com/LLazyEmail/remix-stripe-billing-email-template
+
 
 ### Major Release steps
 - complete table repo 
