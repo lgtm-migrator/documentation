@@ -1,3 +1,10 @@
+---
+id: react-main
+title: React Design System
+sidebar_label: React Design System
+---
+
+
 ### React Design System
 
 - [React-email-typography-components](https://github.com/LLazyEmail/react-email-typography-components)
@@ -9,6 +16,7 @@
 - [Email-template-react](https://github.com/LLazyEmail/email-template-react)
 - [React-email-letter-components](https://github.com/LLazyEmail/react-email-letter-components)
 
+### Remix-* templates
 
 - https://github.com/LLazyEmail/remix-hn-react-email-template
 
@@ -25,6 +33,22 @@
 - https://github.com/LLazyEmail/remix-amazon-billing-email-template
 
 - https://github.com/LLazyEmail/remix-stripe-billing-email-template
+
+
+### links to templates
+
+- <a href="/html/templates/amazon.html" target="_parent">Billing - Amazon</a>
+- <a href="/html/templates/google.html" target="_parent">Billing - Google</a>
+- <a href="/html/templates/stripe.html" target="_parent">Billing - Stripe</a>
+
+- <a href="/html/templates/HN1.html" target="_parent">HN 1</a>
+- <a href="/html/templates/HN2.html" target="_parent">HN 2</a>
+- <a href="/html/templates/HN3.html" target="_parent">HN 3</a>
+- <a href="/html/templates/nomoretogo.html" target="_parent">nomoretogo</a>
+- <a href="/html/templates/taskrabbit.html" target="_parent">taskrabbit</a>
+- <a href="/html/templates/uber.html" target="_parent">uber</a>
+- <a href="/html/templates/venmo.html" target="_parent">venmo</a>
+- <a href="/html/templates/vouchful.html" target="_parent">vouchful</a>
 
 
 ### Major Release steps
