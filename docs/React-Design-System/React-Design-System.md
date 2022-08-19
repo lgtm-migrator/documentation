@@ -10,6 +10,16 @@
 - [React-email-letter-components](https://github.com/LLazyEmail/react-email-letter-components)
 
 
+- https://github.com/LLazyEmail/remix-hn-react-email-template
+
+- https://github.com/LLazyEmail/remix-venmo-react-email-template
+
+- https://github.com/LLazyEmail/remix-taskrabbit-react-email-template
+
+- https://github.com/LLazyEmail/remix-uber-react-email-template
+
+- https://github.com/LLazyEmail/remix-ecommerce-react-email-template
+
 
 ### Major Release steps
 - complete table repo 
