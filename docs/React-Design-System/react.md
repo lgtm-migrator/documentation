@@ -1,3 +1,10 @@
+---
+id: react-tasks
+title: tasks related to react
+sidebar_label: React tasks
+---
+
+
 # Table of Contents
 
 - [Task 2: Explore mdx stuff deeper](#task-2-explore-mdx-stuff-deeper)
