@@ -2,17 +2,7 @@
 
 ### 1. PRs for the main repo Priority [Low]
 
-- https://github.com/LLazyEmail/markdown-to-email/pull/1447
 
-- https://github.com/LLazyEmail/markdown-to-email/pull/1444
-
-- https://github.com/LLazyEmail/markdown-to-email/pull/1439
-
-- https://github.com/LLazyEmail/markdown-to-email/pull/1437
-
-- https://github.com/LLazyEmail/markdown-to-email/pull/1452
-
-- https://github.com/LLazyEmail/markdown-to-email/pull/1458
 
 
 
