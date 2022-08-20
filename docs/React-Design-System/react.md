@@ -68,6 +68,7 @@ A clear and concise description of any alternative solutions or features you've 
 ## Reason or Problem
 
 Should we think about `design system` or just have quick itterations and generate more templates instead.
+
 - https://blog.bitsrc.io/independent-components-the-webs-new-building-blocks-59c893ef0f65
 - https://blog.bitsrc.io/how-we-build-our-design-system-15713a1f1833
 - https://martinfowler.com/articles/micro-frontends.html
@@ -148,11 +149,15 @@ A clear and concise description of any alternative solutions or features you've 
 ## Reason or Problem
 
 Display on a previewjs 3 different letters from a billing folder
-- https://github.com/LLazyEmail/react-email-letter-components/tree/main/email-templates/--empty/billing
 
-amazon
+- https://github.com/LLazyEmail/remix-google-billing-email-template
 
-google
+- https://github.com/LLazyEmail/remix-amazon-billing-email-template
+
+- https://github.com/LLazyEmail/remix-stripe-billing-email-template
+
+
+
 
 ## Proposal or Solution
 
