@@ -22,6 +22,9 @@
 
 - [Task 11: Migration of small components [#197]](#task-11-migration-of-small-components-197)
 
+- [Task 12: Move to domain helper-methods [#1369]](#task-12-move-to-domain-helper-methods-1369)
+
+
 ## Task 1: Add more messages here, and finally replace messages in our methods [#1393](https://github.com/LLazyEmail/markdown-to-email/issues/1393)
 
 | Name   | About  | Title  | Labels  | Assignees  |
@@ -1054,6 +1057,91 @@ A clear and concise description of any alternative solutions or features you've 
 
 ### Logging
 
+----
+
+## Task 12: Move to domain helper-methods [#1369](https://github.com/LLazyEmail/markdown-to-email/issues/1369)
+
+| Name   | About  | Title  | Labels  | Assignees  |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| Move to domain/helper-methods | Move to domain/helper-methods | "" | "" | "" |
+
+## Reason or Problem
+
+`markdown-to-email/src/domain/react/index.js
+Line 8 in 8a94266
+ // TODO move to domain/helper-methods`
+
+```
+import mainObject from './pre-replace-object';
+import configureReplacer from './configuration';
+
+import { replaceMarkdownReact } from './replace-markdown/replace-md';
+
+import Replacer from './replace-class/replace';
+
+// TODO move to domain/helper-methods
+function prepOurCallback(callbackName, debug = false) {
+  if (!callbackName) {
+    throw new Error(`name of ${callbackName} is undefined or empty`);
+  }
+
+  const settings = mainObject[callbackName];
+  // console.log(settings)
+
+  if (debug) {
+    //--------------
+    if (!settings.literal) {
+      console.log(callbackName, settings.constant);
+      console.log('-----------------');
+    }
+    //---------------
+  }
+
+  return settings;
+}
+
+export {
+  mainObject,
+  configureReplacer,
+  replaceMarkdownReact,
+  Replacer,
+  prepOurCallback,
+};
+```
+
+## Proposal or Solution
+
+A clear and concise description of what you want to happen.
+
+### Design
+
+UMLs or describe entities involved, their behaviors and relationships.
+
+### Sample usage
+
+Clear set of instructions
+
+## Alternatives solutions
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+## Stakeholders and Dependent software components
+
+## Testing plan
+
+## Acceptance scenarios
+
+## Other Design tenets
+
+### Performance
+
+### Security
+
+### Configuration
+
+### Maintainability (extensibility points in the design)
+
+### Logging
 
 
 
