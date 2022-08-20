@@ -4,8 +4,9 @@ title: tasks related to react
 sidebar_label: React tasks
 ---
 
+# React tasks
 
-# Table of Contents
+## Table of Contents
 
 - [Task 2: Explore mdx stuff deeper](#task-2-explore-mdx-stuff-deeper)
 
