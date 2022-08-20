@@ -7,35 +7,35 @@ sidebar_label: React Design System
 
 ### React Design System
 
-- [React-email-typography-components](https://github.com/LLazyEmail/react-email-typography-components)
+- [Typography](https://github.com/LLazyEmail/react-email-typography-components)
 - [Nextjs-preview](https://github.com/LLazyEmail/nextjs-preview)
-- [React-email-miscellaneous-components](https://github.com/LLazyEmail/react-email-miscellaneous-components)
-- [React-sendgrid-form](https://github.com/LLazyEmail/react-sendgrid-form)
-- [React-email-template](https://github.com/LLazyEmail/react-email-template)
-- [React-email-table](https://github.com/LLazyEmail/react-email-table)
+- [Miscellaneous](https://github.com/LLazyEmail/react-email-miscellaneous-components)
+- [Form](https://github.com/LLazyEmail/react-sendgrid-form)
+- [Template](https://github.com/LLazyEmail/react-email-template)
+- [Table](https://github.com/LLazyEmail/react-email-table)
 - [Email-template-react](https://github.com/LLazyEmail/email-template-react)
 - [React-email-letter-components](https://github.com/LLazyEmail/react-email-letter-components)
 
 ### Remix-* templates
 
-- https://github.com/LLazyEmail/remix-hn-react-email-template
+- [Hn react email template](https://github.com/LLazyEmail/remix-hn-react-email-template)
 
-- https://github.com/LLazyEmail/remix-venmo-react-email-template
+- [Venmo react email template](https://github.com/LLazyEmail/remix-venmo-react-email-template)
 
-- https://github.com/LLazyEmail/remix-taskrabbit-react-email-template
+- [Taskrabbit react email template](https://github.com/LLazyEmail/remix-taskrabbit-react-email-template)
 
-- https://github.com/LLazyEmail/remix-uber-react-email-template
+- [Uber react email template](https://github.com/LLazyEmail/remix-uber-react-email-template)
 
-- https://github.com/LLazyEmail/remix-ecommerce-react-email-template
+- [Ecommerce react email template](https://github.com/LLazyEmail/remix-ecommerce-react-email-template)
 
-- https://github.com/LLazyEmail/remix-google-billing-email-template
+- [Google billing email template](https://github.com/LLazyEmail/remix-google-billing-email-template)
 
-- https://github.com/LLazyEmail/remix-amazon-billing-email-template
+- [Amazon billing email template](https://github.com/LLazyEmail/remix-amazon-billing-email-template)
 
-- https://github.com/LLazyEmail/remix-stripe-billing-email-template
+- [Stripe billing email template](https://github.com/LLazyEmail/remix-stripe-billing-email-template)
 
 
-### links to templates
+### Links to templates
 
 - <a href="/templates/amazon.html" target="_parent">Billing - Amazon</a>
 - <a href="/templates/google.html" target="_parent">Billing - Google</a>
@@ -74,12 +74,22 @@ We have a 2nd branch, packed with react stuff, now it's separated but needs inpu
 A generator is using the outer template and inner components(Interior) separately.  
 This is why we split things that way. While the generator is creating content dynamically, the outer template is static.
 
+## Image 1
+
 ![1](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/interior-components.jpg)
+
+## Image 2
 
 ![2](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/miscellaneous.jpg)
 
-![3](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/outer-template.jpg0
+## Image 3
+
+![3](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/outer-template.jpg)
+
+## Image 4
 
 ![4](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/templates-in-progress.jpg)
+
+## Image 5
 
 ![5](https://raw.githubusercontent.com/LLazyEmail/documentation/main/static/img/react/typography.jpg)
