@@ -1,15 +1,5 @@
 ## Tasks related to repository `markdown-to-email`
 
-### 1. PRs for the main repo Priority [Low]
-
-
-
-
-
-### 2. Main repo bug 
-
-https://github.com/LLazyEmail/markdown-to-email/issues/1453
-
 
 ### 3. The task to check and probably close Priority [Low]
 
