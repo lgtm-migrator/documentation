@@ -1,4 +1,14 @@
-## Email Marketing For eCommerce
+---
+slug: email-marketing-for-ecommerce
+title: Email Marketing For eCommerce
+authors:
+  name: Arthur Tkachenko
+  title: Core Team
+  url: https://github.com/atherdon
+  image_url: https://github.com/atherdon.png
+tags: [email marketing, ecommerce]
+---
+
 
 - [Klaviyo](https://kinsta.com/) 
 - Campaign Monitor (listed below)
