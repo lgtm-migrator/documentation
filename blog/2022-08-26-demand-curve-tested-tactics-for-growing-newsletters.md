@@ -1,6 +1,6 @@
 ---
 slug: demand-curve-tested-tactics-for-growing-newsletters
-title: Reading list: Demand Curve - Tested tactics for growing newsletters
+title: Reading list - Demand Curve - Tested tactics for growing newsletters
 authors:
   name: Arthur Tkachenko
   title: Core Team
