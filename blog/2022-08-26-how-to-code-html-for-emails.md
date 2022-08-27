@@ -26,7 +26,7 @@ tags: [HTML, email]
 - [Email Coding Guidelines](https://gist.github.com/janogarcia/4977a2346cbc7e52334b)
 - [Free HTML Email Templates](https://github.com/designmodo/html-email-templates)
 - [Responsive Email](https://github.com/derekpunsalan/responsive-email)
-- [How to Code a Mobile-First Responsive Email Template [Tutorial]](https://designmodo.com/code-responsive-email-template/)
+- [How to Code a Mobile-First Responsive Email Template Tutorial](https://designmodo.com/code-responsive-email-template/)
 - [Unlayer. Create beautiful emails, easily.](unlayer.com)
 - [Codepen Email Templates](https://codepen.io/collection/AyVBJr)
 - [Really good email](https://reallygoodemails.com/)
