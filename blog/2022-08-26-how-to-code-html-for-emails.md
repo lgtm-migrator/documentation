@@ -18,7 +18,7 @@ tags: [HTML, email]
 - [A Complete Guide To HTML Email](https://www.smashingmagazine.com/2021/04/complete-guide-html-email-templates-tools/)
 - [Coding html emails](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/)
 - [New to email coding? Here’s where to start](https://explore.reallygoodemails.com/new-to-email-coding-heres-where-to-start-2494422f0bd4)
-- [The RIGHT WAY to create HTML emails | TUTORIAL [2021]](https://www.youtube.com/watch?v=sSNnixkKqcA)
+- [The RIGHT WAY to create HTML emails | TUTORIAL 2021](https://www.youtube.com/watch?v=sSNnixkKqcA)
 - [How to HTML: Your Guide to Designing and Coding Emails That Deliver](https://customer.io/blog/how-to-html-your-guide-to-designing-and-coding-emails-that-deliver/)
 - [Build an HTML Email Template From Scratch](https://webdesign.tutsplus.com/articles/build-an-html-email-template-from-scratch--webdesign-12770)
 - [A Complete Guide To Create Your Own HTML Email](https://email.uplers.com/blog/step-step-guide-create-html-email/)
