@@ -31,7 +31,7 @@
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Add more messages here, and finally replace messages in our methods | messages | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 ```
 import parse from '../../domain/parse';
@@ -52,39 +52,39 @@ const MESSAGE_REACT_FULL_TEMPLATE =
 const parseReactContent = (source) => parse(source, configureReplacer)
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
