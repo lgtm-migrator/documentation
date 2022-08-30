@@ -21,7 +21,7 @@ const sidebars = {
     // Normal syntax:
     {
       type: 'doc',
-      id: 'react-main', // document ID
+      id: 'React-Design-System/react-main', // document ID
       label: 'React Main - replace later', // sidebar label
     },
 
