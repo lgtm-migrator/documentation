@@ -52,6 +52,14 @@ const config = {
         },
         items: [
           
+          {
+            to: '/docs',
+            //type: 'doc',
+            //docId: 'intro',
+            position: 'left',
+            label: 'Documentation Archive',
+          },
+          
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/LLazyEmail/documentation',
