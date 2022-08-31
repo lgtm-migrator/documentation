@@ -94,7 +94,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Check cases when content can have empty lists or blockquote | empty lists or blockquote content | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 ```
 
@@ -127,39 +127,39 @@ function configureReplacer(state, isFull) {
 }
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 ----
 
@@ -169,7 +169,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Move to domain error-handl | error-handle | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 ```
 
@@ -229,39 +229,39 @@ function WR3_generateNewString(config) {
 
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+#2## Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 ----
 
@@ -271,7 +271,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | This can be moved into a separate method | a separate method | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 Problably at some point we'll have only one replacer method, but at this point we cant have it, so we better to optimize things
 
@@ -296,39 +296,39 @@ const replaceHeader = (config) => {
 
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 ----
 
@@ -338,7 +338,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Connect messages to their sources | Connect messages to their sources | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 Eslint-disable-next-line no-undef
 
@@ -361,39 +361,39 @@ export const CONST_FILE_NOT_WRITTEN = 'file not written';
 
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 ----
 
@@ -403,7 +403,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | We need make it work | We need make it work | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 ```
 const ERROR_REGEX_CONSTANT = (value) => `something wrong with RegEx constant ${value}`;
@@ -447,39 +447,39 @@ function objectBuilder(constant, replacer, literal = false){
 }
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 ----
 
@@ -489,7 +489,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Later we can get rid of it completely | Later we can get rid of it completely | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 ```
 
@@ -641,39 +641,39 @@ function EmployeeDetails() {
 var newEmployee = EmployeeDetails()
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 ----
 
@@ -683,7 +683,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Add typeof for checking replacer as a function | checking replacer as a function | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 ```
 
@@ -748,39 +748,39 @@ export default {
 } 
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 ----
 
@@ -790,7 +790,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Looks interesting to implement | Looks interesting to implement | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 ```
 class MissingFieldsError extends Error {
@@ -832,39 +832,39 @@ const ERROR_REGEX_CONSTANT = (value) =>
 
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 ----
 
@@ -874,7 +874,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Should we move away checks | Should we move away checks | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 ```
 
@@ -943,39 +943,39 @@ function verification(warnings, content = false) {
 export { verification, checkWarnings, checkHtml, newLine };
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 ----
 
@@ -985,7 +985,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Migration of small components | Migration of small components | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 В typography у нас сейчас мало компонентов. А Вадим хочет попробывать работу этого модуля и подклюить его к основному генератору.
 
@@ -1023,39 +1023,39 @@ Replacer.emptyBlockquote();
 
 Replacer.separator();
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 ----
 
@@ -1065,7 +1065,7 @@ A clear and concise description of any alternative solutions or features you've 
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Move to domain/helper-methods | Move to domain/helper-methods | "" | "" | "" |
 
-## Reason or Problem
+### Reason or Problem
 
 `markdown-to-email/src/domain/react/index.js
 Line 8 in 8a94266
@@ -1109,39 +1109,39 @@ export {
 };
 ```
 
-## Proposal or Solution
+### Proposal or Solution
 
 A clear and concise description of what you want to happen.
 
-### Design
+#### Design
 
 UMLs or describe entities involved, their behaviors and relationships.
 
-### Sample usage
+#### Sample usage
 
 Clear set of instructions
 
-## Alternatives solutions
+### Alternatives solutions
 
 A clear and concise description of any alternative solutions or features you've considered.
 
-## Stakeholders and Dependent software components
+### Stakeholders and Dependent software components
 
-## Testing plan
+### Testing plan
 
-## Acceptance scenarios
+### Acceptance scenarios
 
-### Other Design tenets
+## Other Design tenets
 
-#### Performance
+### Performance
 
-#### Security
+### Security
 
-#### Configuration
+### Configuration
 
-#### Maintainability (extensibility points in the design)
+### Maintainability (extensibility points in the design)
 
-#### Logging
+### Logging
 
 
 
