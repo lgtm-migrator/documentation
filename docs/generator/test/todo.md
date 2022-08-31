@@ -149,17 +149,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
@@ -251,17 +251,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
@@ -318,17 +318,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
@@ -383,17 +383,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
@@ -469,17 +469,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
@@ -663,17 +663,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
@@ -770,17 +770,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
@@ -854,17 +854,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
@@ -965,17 +965,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
@@ -1045,17 +1045,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 ----
 
@@ -1131,17 +1131,17 @@ A clear and concise description of any alternative solutions or features you've 
 
 ## Acceptance scenarios
 
-## Other Design tenets
+### Other Design tenets
 
-### Performance
+#### Performance
 
-### Security
+#### Security
 
-### Configuration
+#### Configuration
 
-### Maintainability (extensibility points in the design)
+#### Maintainability (extensibility points in the design)
 
-### Logging
+#### Logging
 
 
 
