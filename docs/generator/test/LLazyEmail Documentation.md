@@ -1,3 +1,9 @@
+---
+id: Documentation
+title: LLazyEmail Documentation
+sidebar_label: Documentation, Main project, Markdown-regex module
+---
+
 ## Hi there 👋
 
 ### Documentation: [LLazyEmail Documentation](https://llazyemail.github.io/documentation/)
