@@ -1,3 +1,8 @@
+---
+id: entitie
+title: improvements-entities
+sidebar_label: task, FullTemplate, typography, Errors, TypeScript, single template obj created
+---
 
 Наш проект занимается генерацией email-templates.
 Код, который находится в нашем репозитории был отработан на 2х темлейтах, но сейчас мы пытаемся сделать так, чтобы в наш генератор лекго можно было подключать много темлпейтов. Хочется перестать застревать в includes и дебаге...
