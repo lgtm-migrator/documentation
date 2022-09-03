@@ -1,3 +1,9 @@
+---
+id: exploration
+title: mdx-exploration
+sidebar_label: task, Mdx bundler, Pros MDX
+---
+
 # Tabel of content
 
 - [Task 11](#task-11)
