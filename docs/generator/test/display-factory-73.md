@@ -1,3 +1,9 @@
+---
+id: display-factory
+title: display-factory-73
+sidebar_label: HN template, "ограничения" DisplayFactory
+---
+
 # [Sub task] updated Display Factory - HN template
 
 trying-lit #1349
