@@ -1,3 +1,9 @@
+---
+id: improvements
+title: improvements
+sidebar_label: improvements
+---
+
 # Table of Contents
 
 - [Husky and eslint as actions #933](#husky-and-eslint-as-actions-933)
