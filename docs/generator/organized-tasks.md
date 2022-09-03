@@ -1,3 +1,9 @@
+---
+id: tasks
+title: organized-tasks
+sidebar_label: markdown-to-email, nomoretogo_email_template, different tasks
+---
+
 ## Tasks related to repository `markdown-to-email`
 
 
