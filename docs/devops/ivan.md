@@ -1,3 +1,9 @@
+---
+id: tasks
+title: ivan-tasks
+sidebar_label: tasks 
+---
+
 # Tabel of content
 
 - [Task 1: Setup email accounts with our domain name](#task-1-setup-email-accounts-with-our-domain-name)
