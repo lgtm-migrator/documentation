@@ -1,20 +1,3 @@
-## Hi there 👋
-
-### Documentation: [LLazyEmail Documentation](https://llazyemail.github.io/documentation/)
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-
--->
-
-Email Generator Template Universe
-
 ## Main project
 
 [Markdown-to-email](https://github.com/LLazyEmail/markdown-to-email)
@@ -78,12 +61,6 @@ Modules for Markdown-to-Email project
 - [Email-template-react](https://github.com/LLazyEmail/email-template-react)
 - [React-email-letter-components](https://github.com/LLazyEmail/react-email-letter-components)
 
-### Cool projects to see
-
-- [Bojler](https://github.com/Slicejack/bojler)
-- [Maizzle](https://github.com/maizzle/maizzle)
-- [Pechkin](https://github.com/sglazov/pechkin)
-- [11ty-email-generator](https://github.com/5t3ph/11ty-email-generator/blob/main/src/_data/meta.js)
 
 
 
