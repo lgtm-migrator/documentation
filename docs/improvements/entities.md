@@ -1,3 +1,9 @@
+---
+id: entitie
+title: entities
+sidebar_label: Template, Callback, Object typography replacer, Реорганизация
+---
+
 ### Template Class Entity
 
 Как не забыть про то, что часть objectBuilders не создана.
