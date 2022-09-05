@@ -1,6 +1,6 @@
 ---
-slug: how-i-created-a-simple-npm-package-with-basic-email-templates
-title: How I created a simple NPM package with basic email templates
+slug: introducing-a-simple-npm-module-with-email-templates
+title: Introducing a Simple NPM Module with Email Templates 
 authors:
   name: Arthur Tkachenko
   title: Core Team

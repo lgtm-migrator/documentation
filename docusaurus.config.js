@@ -53,7 +53,7 @@ const config = {
         items: [
           
           {
-            to: '/docs',
+            to: '/blog', 
             //type: 'doc',
             //docId: 'intro',
             position: 'left',
