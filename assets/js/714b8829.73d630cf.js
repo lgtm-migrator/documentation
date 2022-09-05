@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[2741],{3969:e=>{e.exports=JSON.parse('{"label":"demand curve","permalink":"/documentation/blog/tags/demand-curve","allTagsPath":"/documentation/blog/tags","count":1}')}}]);
