@@ -1,6 +1,10 @@
 ## Main project
 
-[Markdown-to-email](https://github.com/LLazyEmail/markdown-to-email)
+**Name** : Markdown-to-email
+
+**Link** :[...](https://github.com/LLazyEmail/markdown-to-email)
+
+**Description** : 
 
 Modules for Markdown-to-Email project
 
@@ -12,7 +16,13 @@ Modules for Markdown-to-Email project
 "atherdon-newsletter-react-replacer": "^0.4.0",
 "atherdon-old-newsletter-js-outertemplate": "^2.4.0",
 "markup-generator": "^0.4.0",
-```
+``` 
+  
+**Status**: not finished
+  
+**Need Help**: Yes
+
+
 
 ### Generator Module
 
