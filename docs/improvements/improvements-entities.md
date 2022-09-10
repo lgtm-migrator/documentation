@@ -1,7 +1,7 @@
 ---
 id: entitie
 title: improvements-entities
-sidebar_label: task, FullTemplate, typography, Errors, TypeScript, single template obj created
+sidebar_label: improvements, entities
 ---
 
 Наш проект занимается генерацией email-templates.
