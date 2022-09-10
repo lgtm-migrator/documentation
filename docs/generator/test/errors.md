@@ -271,7 +271,7 @@ A clear and concise description of any alternative solutions or features you've 
 
 1. Generator is calling methods and saving files 
 
-![Generator is calling methods and saving files](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images%20folder/MindMap1.png "Generator is calling methods and saving files")
+![Generator is calling methods and saving files](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images%20folder/MindMap1.png)
 
 2. Default method with errors for protection
 
