@@ -1,7 +1,7 @@
 ---
 id: entitie
 title: improvements-entities
-sidebar_label: improvements, entities
+sidebar_label: improvements
 ---
 
 Наш проект занимается генерацией email-templates.
