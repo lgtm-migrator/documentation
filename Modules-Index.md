@@ -1,3 +1,9 @@
+---
+id: Modules-Index
+title: Modules-Index
+sidebar_label: Modules-Index
+---
+
 ## Main project
 
 **Name** : Markdown-to-email
