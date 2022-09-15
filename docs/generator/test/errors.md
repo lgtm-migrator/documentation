@@ -271,27 +271,27 @@ A clear and concise description of any alternative solutions or features you've 
 
 1. Generator is calling methods and saving files 
 
-![Generator is calling methods and saving files](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images%20folder/MindMap1.png)
+![Generator is calling methods and saving files](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images-folder/MindMap1.png)
 
 2. Default method with errors for protection
 
-![Default method with errors for protection](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images%20folder/default-method-with-errors-for-protection.png "Default method with errors for protection")
+![Default method with errors for protection](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images-folder/default-method-with-errors-for-protection.png "Default method with errors for protection")
 
 3. File just for organizing output warnings
 
-![File just for organizing output warnings](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images%20folder/file-just-for-organizing-output-warnings.png "File just for organizing output warnings")
+![File just for organizing output warnings](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images-folder/file-just-for-organizing-output-warnings.png "File just for organizing output warnings")
 
 4. Issue with jest because babel is not updated
 
-![Issue with jest because babel is not updated](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images%20folder/issue-with-jest-because-babel-is-not-updated.png "Issue with jest because babel is not updated")
+![Issue with jest because babel is not updated](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images-folder/issue-with-jest-because-babel-is-not-updated.png "Issue with jest because babel is not updated")
 
 5. Object init with lookout for errors
 
-![Object init with lookout for errors](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images%20folder/object-init-with-lookout-for-errors.png "Object init with lookout for errors")
+![Object init with lookout for errors](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images-folder/object-init-with-lookout-for-errors.png "Object init with lookout for errors")
 
 6. Parser runs from build so hard to trace
 
-![Parser runs from build so hard to trace](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images%20folder/parser-runs-from-build-so-hard-to-trace.png "Parser runs from build so hard to trace")
+![Parser runs from build so hard to trace](https://github.com/LLazyEmail/awesome-email-marketing/blob/main/images-folder/parser-runs-from-build-so-hard-to-trace.png "Parser runs from build so hard to trace")
 
 
 ## Task 6: More error handling [#930](https://github.com/LLazyEmail/markdown-to-email/issues/930)
