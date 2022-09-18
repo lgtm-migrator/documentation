@@ -1,5 +1,5 @@
 --- 
-id: 
+id: Cool Newsletters for developers Part 3
 entitie title: Cool Newsletters for developers Part 3
 sidebar_label: Newsletters for developers Part 3
 ---
