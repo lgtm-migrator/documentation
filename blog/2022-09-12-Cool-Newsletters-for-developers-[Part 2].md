@@ -1,3 +1,9 @@
+--- 
+id: Cool Newsletters for developers Part 2
+entitie title: Cool Newsletters for developers Part 2
+sidebar_label: Newsletters for developers Part 2
+---
+
 [Cool Newsletters for developers [Part 1]
 ](https://dev.to/atherdon/cool-newsletters-for-developers-part-1-4f93)
 
