@@ -9,21 +9,37 @@ submodules confusion
 
 ![2](https://user-images.githubusercontent.com/1469198/175816256-6200c620-ad78-437c-aa80-44a9e7aa5e71.png "2")
 
+### Description
+
+### [Markdown to email](https://github.com/LLazyEmail/markdown-to-email)
+
 ### 2. ESLint GitHub Action
 
 ![3](https://user-images.githubusercontent.com/1469198/175816189-8fe46acf-67ff-40ee-825d-9ce5a4957025.png "3")
+
+### Description
+
+### [Nomoretogo email template](https://github.com/LLazyEmail/nomoretogo_email_template)
 
 ### 3. Default methds with errors handle for protection
 
 ![4](https://user-images.githubusercontent.com/1469198/175816199-b6e7dc35-82f0-4b8c-b5e7-b8b7bd0b304b.png "4")
 
+### Description
+
 ### 4. Separate file just for organizing output warnings
 
 ![5](https://user-images.githubusercontent.com/1469198/175816215-42e78e62-25a2-423f-93af-ed63afbfce0d.png "5")
 
+### Description
+
 ### 5. Issue with jest because babel is not updated.
 
 ![6](https://user-images.githubusercontent.com/1469198/175816233-7d99a2ef-191e-490b-bb3e-3e6f8450f4b1.png "6")
+
+### Description
+
+### [Markdown to email](https://github.com/LLazyEmail/markdown-to-email)
 
 ### 6. Long range of tests
 
@@ -38,6 +54,9 @@ can be a great illustration
     "test:custom": "npm run ./src/tests/custom",
     "test:watch": "npm run checkFolders && jest --watch ./src/tests"
 ```
+### Description
+
+### [Markdown to email](https://github.com/LLazyEmail/markdown-to-email)
 
 ### 7. Templates
 
@@ -45,11 +64,24 @@ can be a great illustration
 
 ![9](https://user-images.githubusercontent.com/1469198/175816251-9cb9b541-bbbf-4f5a-8906-ae882175d8e0.png "9")
 
+### Description
+
+### [Nomoretogo email template](https://github.com/LLazyEmail/nomoretogo_email_template)
+
 ![10](https://user-images.githubusercontent.com/1469198/175816252-07976768-48c1-4037-bb22-453c6c9c3acb.png "10")
 
-8. NPM publish workflow
+### Description
+
+### [React plain template example](https://github.com/LLazyEmail/react-plain-template-example)
+
+### 8. NPM publish workflow
 
 ![11](https://user-images.githubusercontent.com/1469198/175816381-5ad355cb-304d-457c-a0d6-aab53a8af71f.png "11")
+
+### Description
+
+## [Markdown regex](https://github.com/LLazyEmail/markdown-regex)
+
 
 #### [Linkedin page of LLazyEmail](https://www.linkedin.com/company/llazyemail/)
 
